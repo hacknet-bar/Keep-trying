@@ -1,0 +1,13 @@
+config playerComp ATKIRC 0.0 $#%#$
+connect $#%#$
+delay 1 $#%#$
+hideRam $#%#$
+clearTerminal $#%#$
+delay 4 $#%#$
+delete /bin * $#%#$
+delete /log * $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+delay 2.5 $#%#$
+showRam $#%#$
+disconnect $#%#$

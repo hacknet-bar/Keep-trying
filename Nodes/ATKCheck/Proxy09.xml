@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Proxy09" 
+          name="ATK-代理节点 09" 
+          ip="39.174.26.7"
+          security="4"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+  <portsForCrack val="6" />
+  <ports>1433, 22, 80, 21, 554, 6881</ports>
+  <trace time="-1" />
+
+
+   <file path="home" name="FinalEnd.dll">#BINARY#</file>
+   <file path="home" name="Whitelist.txt">159.137.2.4</file>
+   <file path="home" name="MemScandata.dat">#BINARY#</file>
+   <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+   <file path="home" name="Pwd_Readme.txt">储存服务器的密码是keepmoving</file>
+   
+     <dlink target="ATKStroage" />
+
+	 
+  <eosDevice name="TestPhone" id="TestPhone" icon="ePhone1" empty="true" passOverride="alpine">
+    <note>Hey.
+一批新的物品已经投放在此处</note>
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  </eosDevice>
+</Computer>

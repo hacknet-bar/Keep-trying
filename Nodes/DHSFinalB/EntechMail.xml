@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EntechMail" 
+name="Entech 邮箱服务器" 
+allowsDefaultBootModule="true"
+security="3"
+type="1" > 
+
+  <adminPass pass="YOUCANTGETTHEADMINPASS" />
+  
+  <ports>80,22,21,25,1433</ports>
+  <portsForCrack val="99999998" />
+  
+  
+  <account username="rc" password="Nopeitdoesntmatter" type="2" />
+  
+  <mailServer name="Entech 邮件" color="255,0,0" generateJunk="true">
+     <email recipient="rc" sender="Gas" subject="FinalEnd计划">rc，最近还好吗？
+多谢合作。FinalEnd计划实施的很成功...
+我相信不久FinalEnd就会研发完成，然后推广到整个世界.
+    </email>
+
+	  <email recipient="rc" sender="Thesjy" subject="Private">
+Who the hell are you？
+     </email>
+	 <email recipient="rc" sender="Teja" subject="pwd">
+收到了，密码d881994Ax
+在你没说重置密码前我都不会更改密码的
+    </email>
+  </mailServer>  
+  
+</Computer>

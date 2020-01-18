@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Debug" 
+          name="Debug" 
+          ip="debug"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="0" />
+  <ports>443, 22, 6881, 554, 21</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <admin type="progess"/>
+  <adminPass pass="ATK-Monitor-4-10777"  resetPassword="false" isSuper="false" />
+  <trace time="-1" />
+  
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+    <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+   <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+   <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+     <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+   
+</Computer>

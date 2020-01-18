@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroWhitelist2"
+          name="Macrosoft 白名单 V2"
+          ip="94.155.76.3"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="76" />
+  <ports>9418</ports>
+  <trace time="-1" />
+  <adminPass pass="PROMETHEUS" /> 
+
+   
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  <WhitelistAuthenticatorDaemon Remote="MacroWhitelist1" />
+
+  
+  <file path="Whitelist" name="list.txt">41.59.66.3</file>
+</Computer>

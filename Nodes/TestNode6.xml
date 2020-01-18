@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="testNode6" 
+          name="RemoteMonitor-4" 
+          ip="98.144.72.215"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>443, 22, 6881, 554, 21</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <admin type="progess"/>
+  <proxy time="1" />
+  <firewall level="5" solution="Mon1ter4" additionalTime="0.005"/>
+  <adminPass pass="ATK-Monitor-4-10777"  resetPassword="false" isSuper="false" />
+  <trace time="50" />
+
+      <eosDevice name="Your reward" id="testNode7ePhone" icon="tablet" empty="true" passOverride="yuna">
+    <note>Surprise！
+没想到你真的找到这里了，那么请收下这份礼物吧</note>
+    <note>测试
+测试测试测试测试</note>
+    <file path="eos/Ofuda" name="Opshell.exe">#SHELL_OPENER_EXE#</file>
+  </eosDevice>
+  
+  <file path="home" name="Robot_Log.log">011010101010101110001010110110010100001101101010101001110110000101010110101010101010101010100100110101010101010</file>
+
+  <file path="home" name="Ofuda.txt">Secret Path IS here.</file>
+  
+   <file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+  
+   <file path="sys" name="SecurityTracker.dll">10100101010101010101001011010101010100110100101010010000101010111101010100110101110110</file>
+   
+   
+   <file path="sys" name="White_x-server.sys">#WHITE_THEME#</file>
+</Computer>

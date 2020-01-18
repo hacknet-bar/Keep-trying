@@ -1,0 +1,3 @@
+config playerComp Cheater 0.0 $#%#$
+
+connect $#%#$

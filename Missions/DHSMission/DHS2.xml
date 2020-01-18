@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHS2" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+ <goal type="fileupload" target="MissionDrop" file="FinalSupport.docx" path="upload/Uploads" destTarget="NortronProject" destPath="Project"/>
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHS2.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="资料获取" reqs="DHS2" >
+Nortron的对手需要获得Nortron公司的最新计划
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>资料获取</subject>
+    <body>Nortron公司.... 是一个很有竞争力的公司，不是么？
+他的对手需要我们帮助他获取Nortron公司的最新计划。
+谁知道这种公司之间的竞争多么残酷呢...
+不管了，你只需要找到Nortron的资料就行了，将其上传到共享服务器。
+
+-Err0r233</body>
+    <attachments>
+<note title="任务笔记">找到Nortron内部资料，上传到共享服务器</note>	
+	  <link comp="Nortron" /> 
+    </attachments>
+  </email>
+</mission>

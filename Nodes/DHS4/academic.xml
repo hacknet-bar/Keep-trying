@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="academic" 
+          name="国际学术数据库" 
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+  <portsForCrack val="1" />
+  <ports>32</ports>
+  <trace time="-1" />
+  <adminPass pass="731634127" />
+<admin type="progress" resetPassword="false" isSuper="false"/> 
+   
+  <academicDatabase />
+  <Tracker />
+	 
+</Computer>

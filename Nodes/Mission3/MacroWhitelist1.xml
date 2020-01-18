@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroWhitelist1"
+          name="Macrosoft 白名单"
+          ip="159.164.73.1"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="3" />
+  <ports>554, 80, 21</ports>
+  <trace time="55" />
+ 
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  
+  <file path="Whitelist" name="list.txt">71.36.144.2</file>
+</Computer>

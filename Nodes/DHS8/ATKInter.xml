@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKInter" name="ATK 信息交互" type="1" icon="chip" ip="156.151.99.22">
+
+  <portsForCrack val="0" />
+  <ports>1433</ports>
+  <trace time="-1" />
+<file path="home" name="FinalEndReadMe.txt">FinalEnd. . .
+以ATK Macrosoft Entech三家组织合作研发的极其强大的软件
+能够达到绝对的安全级别。
+FinalEnd主体为：
+1.Entech的EnSec技术
+2.Macrosoft的防火墙技术
+3.ATK的SecurityTracker技术
+与其说能达到绝对的安全，更不如说我们从内部打破了他们的安全防线. . .</file>
+</Computer>

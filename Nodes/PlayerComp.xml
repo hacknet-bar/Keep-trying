@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME# 作战基地" security="3" allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="absolute" />
+<account username="#PLAYERNAME#" password="absolute" type="ADMIN" />
+
+<ports>443</ports>
+
+<proxy time="5" />
+<portsForCrack val="6666" />
+<trace time="2.5" />
+<firewall level="6" solution="Ithinkyoucannotbreakin" additionalTime="5.0"/>
+
+</Computer>

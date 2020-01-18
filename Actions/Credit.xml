@@ -1,0 +1,52 @@
+<ConditionalActions>
+  
+<Instantly>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="1.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="3.0">用户 "Kaguya" 被封禁</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5.0">呼，那可真是千钧一发</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="7.0">@Channel.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="9.0">他们应该会回来了吧</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="11.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="11.1">用户 "D3f4ult" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="13">啊啊，我回来了</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="15.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="15.0">用户 "Coel" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="17.0">天哪，你们做到了？</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="19.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="19.1">用户 "Jex" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="20.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="20.1">用户 "Alex" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="24">真令人难受</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="26">是啊，就像那种..</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="29">失败的感觉？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="31">应该是这样了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="35">所以..</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="38">我想...这一切都结束了.... FinalEnd已经不复存在了...</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="40">Yep.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="40.5">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="40.9">用户 "Thesjy" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="MissionDHS" Delay="42">hey，各位</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="MissionDHS" Delay="45">这里有个传说</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="MissionDHS" Delay="49">关于奇妙的传说</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="MissionDHS" Delay="52">Clock.exe DNote.exe ComShell.exe ClockV2.exe</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="MissionDHS" Delay="55">他们散落在各处</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="MissionDHS" Delay="58">一个在一个脚本小子上</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="MissionDHS" Delay="60">另外两个远在天边，近在眼前</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="MissionDHS" Delay="62">剩下一个就在这：</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="MissionDHS" Delay="62">!ATTACHMENT:link#%#Thesjy 作战基地#%#80.65.92.89</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="65">这特喵是谁？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="69">不知道= =</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="71">所以，接下来，我们有什么计划吗</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="73">不知道，但是...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="75">我们可以享受休假的快乐了</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="78">哇伊，好耶</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="80">233</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="82">那么，有事的时候再在SES谈吧...</AddIRCMessage>
+<RunFunction FunctionName="playCustomSong:Music/Recollection.ogg"/>
+<LoadMission MissionName="Missions/Thesjy/Thesjy1.xml" />
+<HideNode DelayHost="Cheater" Delay="0.1" TargetComp="ATKFinal" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="ATKFinal" />
+</Instantly>
+
+</ConditionalActions>

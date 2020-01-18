@@ -1,0 +1,25 @@
+<ConditionalActions>
+  
+<OnAdminGained target="PreInter03" >
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="15.0">@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="17.0">你有没有被ATK的解密难住？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="19.0">别说了，我正头大着呢</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="21.0">emmm，让我想想</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="25.0">你有没有找到一些奇怪的数字？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="28.0">有</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="30.0">或许我们应该可以把这些数字串起来...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="33.0">1561 这是我能找到的数字了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="35.0">是的，我也是找到这些数字</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="38.0">156.1....</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="40.0">另外那6个奇怪的字母与后面的等式毫无关系...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="44.0">会不会是一种加密的方式...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="50.0">凯撒密码！(Caesar cipher)</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="53.0">我估计是凯撒密码(Caesar cipher)，我要将这些字母向前移动3位...稍等</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="56">...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="60.0">密码是... IcaRus...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="63.0">靠！居然还是这样的</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="66.0">剩下的，就要靠你了@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="70.0">嘿，保证完成任务@Coel</AddIRCMessage>
+  </OnAdminGained>
+
+</ConditionalActions>

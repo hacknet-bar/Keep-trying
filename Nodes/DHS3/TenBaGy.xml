@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TenBaGy" 
+          name="TenBa 网络供应" 
+          security="6"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+  <portsForCrack val="6" />
+  <ports>1433, 22, 80, 21, 554, 6881</ports>
+  <trace time="70" />
+
+
+   <file path="home" name="Internet.dll">#BINARY#</file>
+   
+     <dlink target="TenBaWifi" />
+
+	 
+
+</Computer>

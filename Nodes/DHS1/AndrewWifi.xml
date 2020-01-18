@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="AndrewWifi" name="Andrew的卧室WIFI" type="empty" allowsDefaultBootModule="true" icon="chip" security="3">
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="-1" />
+
+   <adminPass pass="admin" />
+ 
+  <dlink target="Andrew" />
+  <dlink target="popcorn" />
+</Computer>

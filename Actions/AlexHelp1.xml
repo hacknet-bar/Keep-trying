@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+   <OnAdminGained target="MacrosoftT" >
+    <AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="10.0">@Channel</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="15.0">这里有个ATK的白名单，但是他需要密码</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="18.0">巧了，我这里刚刚好有白名单的密码</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="20.0">密码是Scan</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="22.0">！</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="25.0">我们进去了</AddIRCMessage>
+	<AppendToFile DelayHost="MissionDHS" Delay="25.0" TargetComp="down" TargetFolderpath="Whitelist" TargetFilename="list.txt">#PLAYER_IP#</AppendToFile>
+	<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="28.0">谢了@#PLAYERNAME#，另外，我也往白名单里都添加了你们的IP了</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="30.0">谢了@Jex @Alex</AddIRCMessage>
+  </OnAdminGained>
+
+</ConditionalActions>

@@ -1,0 +1,30 @@
+<ConditionalActions>
+  
+<Instantly>
+<HideNode DelayHost="Cheater" Delay="0.1" TargetComp="GK" />
+<HideNode DelayHost="Cheater" Delay="0.3" TargetComp="GasFinal" />
+<HideNode DelayHost="Cheater" Delay="0.6" TargetComp="KaguyaFinal" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="GK" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="GasFinal" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="KaguyaFinal" />
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.1" />
+<KillExe DelayHost="Cheater" Delay="0" ExeName="sequencer" />
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="3.0">@Channel 看样子是结束了...</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="5.0">呼....</AddIRCMessage>
+<AddIRCMessage Author="Maoyu" TargetComp="SecretIRC" Delay="9.0">终于...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="SecretIRC" Delay="11.0">那么这意味着...</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="15.0">是的... 一切都结束了</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="18.0">那我也应该享受一下</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="21.0">长时间没有试过的休假了呢</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="25.0">XD</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="27.0">Maoyu，那么你有什么打算吗</AddIRCMessage>
+<AddIRCMessage Author="Maoyu" TargetComp="SecretIRC" Delay="30.0">没有... 但是总会有的，对吧 我先走一步</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="32.0">那么，@#PLAYERNAME# 感谢在前行的路上一直有你</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="33.0">!ATTACHMENT:link#%#Credit#%#75.55.155.30</AddIRCMessage>
+  <RunFunction FunctionName="playCustomSong:Music/Recollection.ogg"/>
+
+  </Instantly>
+
+</ConditionalActions>

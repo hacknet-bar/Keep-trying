@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="testNode4" 
+          name="ATK-白名单-验证器" 
+          ip="104.125.19.6"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+
+  <portsForCrack val="1101" />
+  <ports>554, 22, 80, 1433, 443</ports>
+  <portRemap>22=192</portRemap>
+  <trace time="45" />
+  <adminPass pass="Dogs666" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  
+   <file path="home" name="note.txt">嘿...
+我已经将我要进入总部的IP添加了 Gas
+现在应该可以了吧
+-J</file>
+   <file path="home" name="ask.txt">Gas，我好像...忘记我的密码了
+你人呢？能不能帮我...
+至少帮我找回密码吧。。
+账号好像是:JamesBreaker1001
+-J</file>
+   <file path="home" name="Angry.txt">你怎么又忘记密码了
+听好了James：
+这是你的最后警告
+账号:JamesBreaker
+密码:anendlessroute
+听到了没James！
+GAS
+另外，不要忘记把这条提示删除...</file>
+  <file path="Whitelist" name="list.txt">161.98.44.7</file>
+</Computer>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Thesjy" 
+          name="Thesjy 作战基地" 
+          ip="80.65.92.89"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="0" />
+  <ports>443, 22, 6881, 554, 21</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <trace time="-1" />
+
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+   <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+<file path="home" name="4.txt">30</file>
+
+
+   
+</Computer>

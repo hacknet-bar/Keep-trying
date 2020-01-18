@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHS5" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	<goal type="filedeletion" target="r00t" file="PointClicker.zip" path="Surprise"/>
+	<goal type="filedeletion" target="r00tBackup" file="PointClicker.zip" path="home"/>
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHS5.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="惊喜派对" reqs="DHS5" >
+一名学生想要恶搞他的同学
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>惊喜派对</subject>
+    <body>我们收到了一名学生的委托，他让我们在他们的派对之前把r00t想要展示的Pointclicker删除。
+我们已将ip贴在附件处了，这是一项很简单的任务。祝你好运
+
+-Err0r233</body>
+    <attachments>
+<note title="任务笔记">删除r00t的PointClicker。记住，他可能有备份</note>
+	  <link comp="r00t" /> 
+    </attachments>
+  </email>
+</mission>

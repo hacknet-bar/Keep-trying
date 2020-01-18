@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Unknown3" 
+          name="Unknown3" 
+          security="10"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="7" />
+  <ports>443, 22, 6881, 554, 21, 80, 1433, 25</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <trace time="75" />
+
+<encryptedFile path="home" name="FinalEnd.dec" extension=".txt" ip="LocalHost" header="Error" pass="123">
+158
+  </encryptedFile>
+
+<file path="home" name="chat3.txt">|Kaguya| : FinalEnd基本已经成功还原了
+|Kaguya| : 增强了SecurityTracker和新增的Viewer视窗
+|Kaguya| : 这样下来，我们就能随时监视用户们，观察他们的一举一动了
+|Kaguya| : 有什么“意外”我们都可以及时控制，不是么？
+|Kaguya| : 另外，我增加了新功能——————FinalEnd Emergency Attack
+|Kaguya| : 只要谁连接上安装了FinalEnd的PC却没有内置白名单保护
+|Kaguya| : 这个系统就会触发紧急追踪，并删除入侵者的x-server.sys
+
+|Gas| : 听上去不错，记得把我加入白名单
+|Kaguya| : 放心，我自然会添加:P</file>
+   
+</Computer>

@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ClockV2Comp" name="Be Rewarded" security="3" allowsDefaultBootModule="false" icon="DLCServer" type="3">
+
+  <ports>554, 22, 25, 80, 6881</ports>
+  <portsForCrack val="5" />
+  <proxy time="-1" />
+  <firewall level="-1" />
+  <trace time="120" />
+  <admin type="fast" isSuper="true"/>
+
+
+
+
+<!-- THE TRUEST ULTIMATE POWER; GAZE UPON IT YET AGAIN! -->
+
+
+
+
+
+
+
+<encryptedFile path="bin/Congratulations/Enjoy/Your/Reward" name="ClockV2.dec" extension=".exe" ip="[LOCALHOST]" header="The End" pass="dreamcast">#CLOCK_V2_EXE#</encryptedFile>
+
+
+
+
+
+
+<!-- THE TRUEST ULTIMATE POWER; GAZE UPON IT YET AGAIN! -->
+
+
+
+
+
+
+
+
+<file path="home" name="You_Made_it.txt">You deserve this file; treat it with care.</file>
+
+
+<CustomConnectDisplayDaemon />
+
+</Computer>

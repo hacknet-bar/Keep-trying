@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission2">
+  <goals>
+    <goal type="fileupload" target="MissionDrop" file="Package.zip" path="upload/Uploads" destTarget="Rosan" destPath="project"/>
+  </goals>
+  <missionStart val="0">loadConditionalActions:Actions/Mission2Start.xml</missionStart>
+  <missionEnd val="10">addRank</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <posting title="医疗救助" requiredRank="11" >
+我们需要帮助一名患者完成他的心愿
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Err0r233</sender>
+    <subject>医疗救助</subject>
+    <body>嗨，这说起来有点沉重，但是...
+那我就长话短说了吧，
+一名叫做Rosan Brany的人患了病，现在在医院接受治疗中。
+据说他现在已经快能转到普通病房了，
+但是我们还需要帮助他得到他所想要的东西，
+不必担心文件的问题，我已经将源码打包完毕上传到服务器上了，你只需要下载它并上传至他的电脑。
+他应该会随身携带PC...
+我建议你先从医院入手</body>
+    <attachments>
+	  <link comp="Medical" />
+    </attachments>
+  </email>
+</mission>

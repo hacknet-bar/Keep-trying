@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroWhitelist3"
+          name="END"
+          ip="EEENND"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="104500" />
+  <ports>9418</ports>
+  <trace time="-1" />
+
+   
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+
+  
+  <file path="Whitelist" name="list.txt">41.59.66.3</file>
+</Computer>

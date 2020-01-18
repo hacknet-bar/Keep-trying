@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EntechInternal" name="Entech 外承包中继商服务器" type="1" icon="DLCPC1">
+
+  <portsForCrack val="7" />
+  <ports>80, 22, 25, 21, 443, 554, 1433</ports>
+  <portRemap>80=8080,22=225,1433=65451,21=32</portRemap>
+  <proxy time="2.5" />
+  <trace time="85" />
+
+<dlink target="zeus" />
+<dlink target="EntechMail" />
+<dlink target="EnPrj" />
+</Computer>

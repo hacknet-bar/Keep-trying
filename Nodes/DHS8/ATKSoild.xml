@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATK_Soild" name="ATK Soild" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>32</ports>
+  <trace time="-1" />
+    <adminPass pass="SoildisCool" />
+<file path="home" name="Inter.txt">1</file>
+  <eosDevice name="ATKPhone1" id="EPhoneX" icon="ePhone1" empty="false" passOverride="alpine">
+    <note>Password
+	Field的密码为PathFaithless</note>
+    <note>千万不要点我
+5</note>
+  </eosDevice>
+   <eosDevice name="ATKPhone2" id="EPhone 7" icon="ePhone2" empty="false" passOverride="alpine">
+    <note>千万不要点我
+6</note>
+  </eosDevice> 
+   
+   <WhitelistAuthenticatorDaemon Remote="ATKWT"/>
+ <file path="bin" name="FinalEnd.dll">#BINARY#</file>
+  
+</Computer>

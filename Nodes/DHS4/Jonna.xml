@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Jonna" 
+          name="T. Jonna的笔记本" 
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="DLCLaptop" 
+          type="1" > 
+  <portsForCrack val="1" />
+  <ports>32</ports>
+  <trace time="-1" />
+
+
+   <file path="home" name="Test.dll">#BINARY#</file>
+
+   
+	 
+</Computer>

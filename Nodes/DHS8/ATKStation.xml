@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKStation" name="ATK 工作站" type="1">
+
+  <portsForCrack val="1" />
+  <ports>1433</ports>
+  <trace time="22" />
+ <admin type="fast" resetPassword="false" isSuper="false"/> 
+   
+<dlink target="Station1" />
+<dlink target="Station5" />
+<dlink target="Station8" />
+<dlink target="Station12" />
+  
+</Computer>

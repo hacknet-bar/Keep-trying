@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DownloadMission" activeCheck="true">
+  <goals>
+<goal type="filedownload" target="Err0rBackup" file="SSHCrack.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup" file="RTSPCrack.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup2" file="TorrentStreamInjector.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup2" file="SSLTrojan.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup2" file="FTPSprint.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup3" file="WebServerWorm.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup3" file="SMTPOverflow.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup3" file="SQLBufferOverflow.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup4" file="MemForensics.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup4" file="MemDumpGenerator.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup4" file="PacificPortcrusher.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup4" file="Decypher.exe" path="bin"/>
+<goal type="filedownload" target="Err0rBackup4" file="DECHead.exe" path="bin"/>
+  </goals>
+<missionEnd>loadConditionalActions:Actions/Final.xml</missionEnd>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>kang_zi</sender>
+    <subject>Error</subject>
+    <body>Bug....
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

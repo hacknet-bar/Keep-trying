@@ -1,0 +1,20 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+delay 2 $#%#$
+writel Alert! $#%#$
+delay 2 $#%#$
+writel ！！Maoyu is in！！$#%#$
+delay 2 $#%#$
+writel Hey, I think you must be in trouble now.$#%#$
+delay 2 $#%#$
+writel Thesjy told me to help you. Let me Check it out.$#%#$
+delay 5 $#%#$
+writel Alright. Just losing something. x-server.sys $#%#$
+delay 3 $#%#$
+writel There is a node. Go to download x-server.sys $#%#$
+delay 2 $#%#$
+writel I have to go back.$#%#$
+delay 3 $#%#$
+writel 192.55.87.36$#%#$
+delay 2 $#%#$
+writel Good Luck.$#%#$
+disconnect $#%#$

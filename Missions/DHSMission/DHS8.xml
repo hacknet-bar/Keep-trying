@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHS8" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+<goal type="getstring" target="156.151.99.22" />
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHS8.xml</missionEnd>
+  <missionEnd>loadConditionalActions:Actions/D3f4ult.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="ATK - 蔓延" reqs="DHS8" >
+找到关于ATK的更多信息
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>ATK - 蔓延</subject>
+    <body>...既然我们已经知道了ATK在密谋些什么，那么我们要采取行动了...
+尽全力探索你能探索到的地方，Coel会帮助你的。
+我想，不只是只有ATK一个组织在研发FinalEnd。
+祝好运
+
+-Err0r233</body>
+    <attachments>
+<note title="任务笔记">找到ATK与其他组织合作的证据，并将IP上传</note>
+	  <link comp="ATKInternet" /> 
+    </attachments>
+  </email>
+</mission>

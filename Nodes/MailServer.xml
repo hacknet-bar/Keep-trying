@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="boxmail" 
+name="Box Mail邮件服务器" 
+allowsDefaultBootModule="true"
+ip="128.64.89.177"
+security="3"
+type="1" > 
+
+  <adminPass pass="YOUCANTGETTHEADMINPASS" />
+  
+  <ports>80,22,21,25,1433</ports>
+  <portsForCrack val="99999998" />
+  
+  
+  <account username="Gas" password="republic20" type="2" />
+  
+  <mailServer name="Box Mail邮件" color="50,237,212" generateJunk="true">
+     <email recipient="Gas" sender="James Breaker" subject="密码">
+嘿，说好的邮件交流，所以...emm 密码呢？
+    </email>
+	 <email recipient="Gas" sender="James Breaker" subject="Re:密码">
+收到了，Gas。
+白名单验证器：104.125.19.6
+密码到底是个啥？44 6f 67 73 36 36 36 ？？？
+Gas，我需要你的答复
+     </email>
+	  <email recipient="Gas" sender="James Breaker" subject="Re:Re:密码">
+你在讲什么？
+我的电脑已经被你上传了一份文件？
+     </email>
+  </mailServer>  
+  
+</Computer>

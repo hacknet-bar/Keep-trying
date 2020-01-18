@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission1">
+  <goals>
+	<goal type="getstring" target="166.244.57.9" />
+	<goal type="clearfolder" target="Alex" path="WannaFly"/>
+  </goals>
+  <missionEnd>loadConditionalActions:Actions/attackback.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="不情之请" requiredRank="1" >
+Alex那边似乎出了点事，需要一个人去帮忙
+  </posting>
+  <email>
+    <sender>Alex</sender>
+    <subject>不情之请</subject>
+    <body>说来惭愧，身为一个黑客电脑竟然被其他人搞坏了...这是我用我的备用电脑发送出来的邮件...
+
+我需要你进入我的电脑，帮我清理一下可疑的文件，
+
+如果可以的话，请你帮我找出攻击者的IP，并将它告诉我。
+
+我会给他一个大大的“奖励”的 XD
+
+感谢你！</body>
+    <attachments>	
+	  <link comp="Alex" /> 
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHS6" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+    <goal type="FileDeletion" target="SlashBot" file="config.sys" path="MsgBoard" />
+	    <goal type="clearfolder" target="SlashBotBackup" path="close"/>
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHS6.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="Endroid风波" reqs="DHS6" >
+帮助Endroid从这次危机中解围
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>Endroid风波</subject>
+    <body>Endroid在上次源码泄漏事件之后被SlashBot抓住了把柄。
+现在这家媒体公司正在大肆抹黑Endroid，Endroid让我们帮助他让SlashBot沉寂下来。
+只需删除SlashBot的config.sys文件以及备份的新闻即可。
+
+-Err0r233</body>
+    <attachments>
+<note title="任务笔记">删除SlashBot的核心系统文件以及备份文件</note>
+	  <link comp="SlashBot" /> 
+    </attachments>
+  </email>
+</mission>

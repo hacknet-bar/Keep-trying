@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Cheater" 
+          name="Cheater Stash" 
+          ip="1337.1337.1337.1337"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="0" />
+  <ports>443, 22, 6881, 554, 21</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <admin type="progess"/>
+  <adminPass pass="ATK-Monitor-4-10777"  resetPassword="false" isSuper="false" />
+  <trace time="-1" />
+
+   <file path="home" name="FAST!!!!!!!!.txt">你肯定还在被追踪吧
+你厌倦了作者的无数次测试了吗？
+这里 直接连接监视器把他搞掉
+98.144.72.215
+Password：ATK-Monitor-4-10777</file>
+   
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+
+   <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+  
+   <file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+  
+   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+   
+   <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+   
+   <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+   
+   <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+   
+   <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+   
+   <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+   
+   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+   
+   <FastActionHost/>
+</Computer>

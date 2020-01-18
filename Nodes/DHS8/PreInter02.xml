@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PreInter02" name="02" type="1" icon="chip">
+
+  <portsForCrack val="5" />
+  <ports>1433, 6881, 554, 80, 443</ports>
+  <trace time="70" />
+<file path="home" name="Inter.txt">Ica=51.9</file>
+</Computer>

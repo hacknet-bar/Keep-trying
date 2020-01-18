@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+  <OnConnect target="EntechFinal" >
+<RunFunction FunctionName="playCustomSongImmediatley:Music/FFF.ogg" DelayHost="Cheater" Delay="3.0"/>
+<StartScreenBleedEffect AlertTitle="STOP FINALEND" CompleteAction="Actions/FailActions.xml" TotalDurationSeconds="140.0" DelayHost="Cheater" Delay="3.0">打破防御
+删除关于FinalEnd的一切
+GO! GO! GO!</StartScreenBleedEffect>
+  </OnConnect>
+
+</ConditionalActions>
+ 

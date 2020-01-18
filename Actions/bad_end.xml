@@ -1,0 +1,18 @@
+<ConditionalActions>
+  
+<Instantly>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<LaunchHackScript Filepath="HackScripts/bad_end.txt" 
+                  DelayHost="Cheater" 
+                  Delay="1" SourceComp="ATKIRC" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<CrashComputer TargetComp="GK" CrashSource="Cheater" DelayHost="ATKIRC" Delay="1" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="GK" />
+<CrashComputer TargetComp="GasFinal" CrashSource="Cheater" DelayHost="ATKIRC" Delay="1" />
+<HideNode DelayHost="Cheater" Delay="1" TargetComp="GasFinal" />
+<CrashComputer TargetComp="KaguyaFinal" CrashSource="Cheater" DelayHost="ATKIRC" Delay="1" />
+<HideNode DelayHost="KaguyaFinal" Delay="1" TargetComp="GK" />
+<ChangeIP DelayHost="Cheater" Delay="1" TargetComp="GK" NewIP="83.66.238.54" />
+<KillExe DelayHost="Cheater" Delay="1" ExeName="*" />
+</Instantly>
+
+</ConditionalActions>

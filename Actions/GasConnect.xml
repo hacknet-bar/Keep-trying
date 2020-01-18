@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+<OnConnect target="GK" needsMissionComplete="false">
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<LaunchHackScript Filepath="HackScripts/GasConnect.txt" 
+                  DelayHost="Cheater" 
+                  Delay="1" SourceComp="ATKIRC" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<CrashComputer TargetComp="GK" CrashSource="Cheater" DelayHost="ATKIRC" Delay="3" />
+<HideNode DelayHost="Cheater" Delay="3" TargetComp="GK" />
+<ChangeIP DelayHost="Cheater" Delay="3" TargetComp="GK" NewIP="83.66.238.54" />
+<AddConditionalActions Filepath="Actions/Maoyuhelp1.xml" DelayHost="Cheater" Delay="0.0"/>
+</OnConnect>
+
+</ConditionalActions>

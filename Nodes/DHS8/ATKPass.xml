@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKPass" name="ATK 密码存放处" type="1" icon="chip">
+
+  <portsForCrack val="6" />
+  <ports>1433, 554, 443, 21, 22, 80</ports>
+  <trace time="75" />
+  <firewall level="6" additionalTime="0.08"/>
+  <proxy time="1.5" />
+
+  <WhitelistAuthenticatorDaemon Remote="ATKWT"/>
+  
+<file path="home" name="FinalEndProject.txt">F I N A L E N D.</file>
+<file path="home" name="Soild.txt">SoildisCool</file>
+</Computer>

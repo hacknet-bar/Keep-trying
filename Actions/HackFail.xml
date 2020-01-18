@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <Instantly>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="true" IsHidden="false" />
+    <LaunchHackScript FilePath="HackScripts/StartFail.txt" DelayHost="Cheater" Delay="0" SourceComp="testNode6" TargetComp="playerComp" RequireLogsOnSource="False" RequireSourceIntact="false"/>
+  </Instantly>
+</ConditionalActions>

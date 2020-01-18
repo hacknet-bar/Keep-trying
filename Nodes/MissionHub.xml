@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MissionHub" 
+          name="SES 任务数据库" 
+          ip="1.1.1.1"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2" 
+          type="1" > 
+
+  <account username="#PLAYERNAME#" password="SES-RE-1010" type="3" />
+  <portsForCrack val="2" />
+  <ports>443</ports>
+  <portRemap>443=15689</portRemap>
+  <trace time="1.5" />
+   <missionHubServer groupName="SES" serviceName="SES 任务数据库" missionFolderPath="Missions/HubMission" themeColor="232,232,232" lineColor="20,20,20" backgroundColor="20,20,20" allowAbandon="false"/>
+</Computer>

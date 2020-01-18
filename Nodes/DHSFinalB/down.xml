@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="down" name="ATK - 合作白名单" type="1">
+
+  <portsForCrack val="5" />
+  <ports>443, 22, 80, 25, 1433</ports>
+  <trace time="70" />
+<admin pass="Scan" />
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+
+
+  
+</Computer>

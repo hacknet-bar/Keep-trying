@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="DHS5">
+<RunFunction FunctionName="addRank" FunctionValue="10"/>
+<RunFunction FunctionName="addFlags:DHS7"/>
+<RunFunction FunctionName="removeFlags:DHS5"/>
+
+</HasFlags>
+
+</ConditionalActions>

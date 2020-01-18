@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <Instantly>
+  <AddAsset FileName="Package.zip" FileContents="#BINARY#" TargetComp="MissionDrop" TargetFolderpath="upload/Uploads" />
+    
+  </Instantly>
+
+</ConditionalActions>

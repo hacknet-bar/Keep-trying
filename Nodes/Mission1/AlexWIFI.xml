@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="AlexWIFI"
+          name="Alex的路由器"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="3" >
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="75" />
+  <adminPass pass="Mol1040" /> 
+
+  
+  <file path="home" name="Connection.txt">哈哈哈哈哈哈哈，我成功连上这个wifi了！！！！！！</file>
+  
+  
+  <dlink target="Victim" />
+	 
+	 
+</Computer>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NortronWT" 
+          name="Nortron 白名单" 
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" 
+		  ip="73.98.188.4" > 
+  <portsForCrack val="7" />
+  <ports>25, 22, 80, 554, 1433, 6881, 21</ports>
+  <trace time="-1" />
+  <portRemap>6881=10458, 80=8080</portRemap>
+  
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  
+    <tracker />
+	
+	<dlink target="NortronProject" />
+
+  
+</Computer>

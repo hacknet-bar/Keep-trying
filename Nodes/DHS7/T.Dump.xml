@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="T.Dump" name="T.Dump的个人PC" security="1" type="4">
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 80, 554, 1433, 6881</ports>
+  <trace time="75" />
+  <proxy time="2" />
+  <firewall level="6" additionalTime="0.04"/>
+  <admin type="basic" resetPassword="false" isSuper="false"/>
+  
+  <Memory>
+    <Commands>
+	  <Command>ping 88.105.86.254</Command>
+      <Command>login</Command>
+      <Command>cd /Whitelist</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /home</Command>
+      <Command>rm *.home</Command>
+    </Commands>
+    <Data>
+      <Block></Block>
+      <Block>
+      </Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+  <dlink target="ElControl" />
+</Computer>

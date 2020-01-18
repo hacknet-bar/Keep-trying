@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Proxy05" 
+          name="ATK-代理节点 05" 
+          ip="224.151.26.193"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 1433, 554</ports>
+  <trace time="70" />  
+  <proxy time="2" />
+  <firewall level="6" additionalTime="0.02"/>
+  
+  <file path="home" name="A_mention.txt">
+这个服务器仅仅作为一个普通的缓存服务器存在
+请不要在这里放置任何重要文件
+这个服务器是不会清除你的重要文件的
+Gas</file>
+
+  <dlink target="Proxy09" />
+  
+
+  <Memory>
+    <Commands>
+	  <Command>ping 145.73.68.4</Command>
+      <Command>login</Command>
+      <Command>cd /Whitelist</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /home</Command>
+      <Command>rm *.home</Command>
+    </Commands>
+    <Data>
+      <Block></Block>
+      <Block>
+      </Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+</Computer>

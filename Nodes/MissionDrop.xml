@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MissionDrop"
+          name="SES 共享服务器"
+          ip="3.3.3.3"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>9418, 3724, 3659</ports>
+  <trace time="-1" />
+  <adminPass pass="Replite" /> 
+
+<uploadServerDaemon name="SES-共享" folder="upload"
+                    needsAuth="false" color="176,23,31" hasReturnViewButton="true"/>
+  
+  <file path="upload/Uploads" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+</Computer>

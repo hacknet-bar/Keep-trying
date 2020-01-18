@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHS4" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+    <goal type="wipedegrees" owner="John Stalvern"/>
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHS4.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="学位删除" reqs="DHS4" >
+删除一个脚本小子的学位
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>学位删除</subject>
+    <body>John Stalvern... 你或许没听过这个名字，但是他在他的学校大出风头。
+只因在国际学术数据库里他的GPA达到了999。
+这听起来很不可能吧，但是...他就是利用了些“小手段”。
+#PLAYERNAME#，这是一次隐秘的行动，千万不要被国际学术数据库的系统发现。
+
+-Err0r233</body>
+    <attachments>
+<note title="任务笔记">找到进入国际学术数据库的办法。
+删除John Stalvern的学位
+不要被国际学术数据库的系统发现你</note>	
+	  <link comp="UnLogin" /> 
+    </attachments>
+  </email>
+</mission>

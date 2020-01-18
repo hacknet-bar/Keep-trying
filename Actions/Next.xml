@@ -1,0 +1,28 @@
+<ConditionalActions>
+  
+<Instantly>
+<LoadMission MissionName="Missions/DelayMission.xml" />
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="1.0">@#PLAYERNAME# 干的不错，我就知道你能做到</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3.0">接下来的事情就交给我和Jex吧</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="6.0">放心吧@Err0r233</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="9.0">我先去忙了awa</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="12.0">那么，我们接下来该做什么呢</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="14.0">emmmm，先做几个小任务吧</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="17.0">在我们完全将文本的密码找到前</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="20.0">好</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="22.0">好的，但是我要申请下休息...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="24.0">就一会，我要跟一个人好好谈一谈</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="26.0">？？</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="29.0">那么，那个人是谁呢？</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="31.0">商业机密:P</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="33.0">好吧，Coel 但是你要尽快回来</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="36.0">Thx.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="40.0">啊，又是辛劳的一天...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="42.0"> 但是，没有辛勤的劳动哪能获得这么多情报呢</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="45.0">是的@#PLAYERNAME# 所以去做任务吧！</AddIRCMessage>
+<AddConditionalActions Filepath="DHS/DHS1.xml" DelayHost="MissionDHS" Delay="45"/>
+<AddConditionalActions Filepath="DHS/DHS2.xml" DelayHost="MissionDHS" Delay="45"/>
+<AddConditionalActions Filepath="DHS/DHS3.xml" DelayHost="MissionDHS" Delay="45"/>
+</Instantly>
+
+</ConditionalActions>

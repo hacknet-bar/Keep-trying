@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Err0rBackup" name="Err0r 备份服务器" type="empty" ip="192.185.76.3">
+
+  <portsForCrack val="0" />
+  <ports>22</ports>
+  <trace time="-1" />
+  
+  
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+  <file path="home" name="Keepgoing">Scan一下，你就知道</file>
+  
+  <dlink target="Err0rBackup2" />
+</Computer>

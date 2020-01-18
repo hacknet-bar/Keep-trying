@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Err0rBackup3" name="Err0r 备份服务器 3" type="empty" >
+
+  <portsForCrack val="5" />
+  <ports>22, 554, 21, 443, 6881</ports>
+  <trace time="-1" />
+  
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="home" name="Keepgoing">Scan一下，你就知道</file>
+  
+  <dlink target="Err0rBackup4" />
+</Computer>

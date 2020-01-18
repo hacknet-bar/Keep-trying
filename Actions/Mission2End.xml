@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="3.0">干得漂亮@#PLAYERNAME#</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="6.0">emmmmm</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="10.0">各位，我回来了</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="13.0">我找到了一样新玩意，已经上传至共享服务器了</AddIRCMessage>
+	<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="MissionDrop" TargetFolderpath="bin" />
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="19.0">厉害了@Jex，是Web破解器！</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="22.0">哇，谢谢Jex大佬的Web破解器</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="25.0">谢了@Jex</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="29.0">谢谢各位支持:P</AddIRCMessage>
+  </Instantly>
+
+</ConditionalActions>

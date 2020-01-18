@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+    <!-- Goals here -->
+	<goal type="filedeletion" target="testNode6" file="SecurityTracker.dll" path="sys"/>
+  </goals>
+  <missionStart val="0">setFaction:Intro</missionStart>
+  <missionStart val="0">loadConditionalActions:Actions/StartHack.xml</missionStart>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/WelcomeMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Err0r233</sender>
+    <subject>再次相见</subject>
+    <body>
+我们...又再次见面了...
+
+上一次见面已经是很久之前了，但是现在，我很高兴看到你能回来。
+
+可是现在并不是叙旧的时候，你的电脑正在被追踪！
+
+你必须删除攻击者的SecurityTracker.dll文件！
+
+ 我很想帮助你解决这个问题，可是这个任务只能由你自己完成...
+
+Good luck...
+-Err0r233
+</body>
+    <attachments>
+	  <link comp="testNode" />
+    </attachments>
+  </email>
+</mission>

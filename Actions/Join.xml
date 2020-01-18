@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3.0">@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5.0">跟我来一下</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="7.0">!ATTACHMENT:link#%#Secret IRC#%#99.105.83.114</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/Come.xml" DelayHost="Cheater" Delay="0.0"/>
+</OnConnect>
+</ConditionalActions>

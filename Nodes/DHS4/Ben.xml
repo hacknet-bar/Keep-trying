@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Ben" 
+          name="D. Ben的工作站" 
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+  <portsForCrack val="3" />
+  <ports>1433, 6881, 80</ports>
+  <trace time="55" />
+<admin type="progress" resetPassword="false" isSuper="false"/> 
+
+   <file path="home" name="academicPass.txt">密码就在这个化学方程式之中
+K2Cr2O7 + 3C2H5OH + 4H2SO4 = 3CH3CHO+ K2SO4 + Cr2(SO4)3 + 7H2O</file>
+   <file path="home" name="tips.txt">该方程中含有的地壳中最多的元素的个数一个个排列</file>
+   
+
+	 
+</Computer>

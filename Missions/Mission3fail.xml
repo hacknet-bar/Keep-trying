@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission3fail" >
+  <goals>
+    <goal type="fileupload" target="MacroCore" file="Decypher.exe" path="bin" destTarget="MissionDrop" destPath="upload/Uploads" />
+  </goals>
+  <missionEnd>loadConditionalActions:Actions/Mission3TrueEnd.xml</missionEnd>  
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Err0r233</sender>
+    <subject>Re:寻找解码原件</subject>
+    <body>看来macrosoft对于核心技术产品保护的很完善嘛，其实这也在我的意料之中
+
+我们回IRC详谈吧！
+
+-Err0r233</body>
+    <attachments>
+      <dlink target="MissionIRC" />
+    </attachments>
+  </email>
+</mission>

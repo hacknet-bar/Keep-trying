@@ -1,0 +1,56 @@
+<ConditionalActions>
+  
+   <Instantly>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+
+<LaunchHackScript Filepath="HackScripts/Gashack.txt" 
+                  DelayHost="Cheater" 
+                  Delay="60" SourceComp="ATKIRC" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+				  <HideNode DelayHost="Cheater" Delay="0.1" TargetComp="EntechFinal" />
+<CrashComputer Delay="0.1" DelayHost="Cheater" CrashSource="Cheater" TargetComp="EntechFinal" />
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="1.0">@#PLAYERNAME# 干得好！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5.0">@D3f4ult @Coel 你们是第二名！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="9.0">现在，只需要等Alex和Jex了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="13.0">......?</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="15.0">为什么...他们没有回来？</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="17.0">这可不是什么好预兆</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="21.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="21.1">用户 "Jex" 离开了服务器</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="22.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="22.1">用户 "Alex" 离开了服务器</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="24.0">靠！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="25.0">哦不....他们....</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="27.0">@D3f4ult，我需要你去帮我看下他们俩的电脑...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="30.0">他们估计出事了...</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="33.0">明白了...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="36.0">可恶...还是没能抹除FinalEnd吗</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="37.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="37.1">用户 "Gas" 进入了服务器</AddIRCMessage>
+  		<SetLock DelayHost="Cheater" Delay="37.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="37.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="37.1" Module="ram" IsLocked="true" IsHidden="false" />
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="38.0">...</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="38.0">...?</AddIRCMessage>
+<AddIRCMessage Author="Gas" TargetComp="MissionDHS" Delay="39.0">我已经警告过你们了...</AddIRCMessage>
+<AddIRCMessage Author="Gas" TargetComp="MissionDHS" Delay="42.0">但是你们...还是这么的愚蠢</AddIRCMessage>
+<AddIRCMessage Author="Gas" TargetComp="MissionDHS" Delay="45.0">还好我赶上了，否则我们的计划....</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="49.0">呵...所谓的FinalEnd，只不过是一个假象罢了</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="51">你们真正的意图...肯定不止于此</AddIRCMessage>
+<AddIRCMessage Author="Gas" TargetComp="MissionDHS" Delay="55.0">是的，但那又怎么样？</AddIRCMessage>
+<AddIRCMessage Author="Gas" TargetComp="MissionDHS" Delay="58.0">只要我们将它包装的好好的，就没有人怀疑我们</AddIRCMessage>
+<AddIRCMessage Author="Gas" TargetComp="MissionDHS" Delay="60.0">所以，永别了 SES.</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="63.0">怎么又来</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="65.0">靠</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="69.0">干！</AddIRCMessage>
+
+<AddConditionalActions Filepath="Actions/Tools.xml" DelayHost="Cheater" Delay="75.0"/>
+
+<CrashComputer TargetComp="MissionDrop" CrashSource="Cheater" DelayHost="ATKIRC" Delay="50" />
+<ChangeIP DelayHost="Cheater" Delay="52" TargetComp="MissionDrop" NewIP="156.215.30.2" />
+<HideNode DelayHost="Cheater" Delay="48" TargetComp="MissionDrop" />
+  </Instantly>
+
+
+</ConditionalActions>

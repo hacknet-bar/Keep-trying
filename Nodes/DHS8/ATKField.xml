@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATK_Field" name="ATK Field" type="empty">
+
+  <portsForCrack val="1" />
+  <ports>443</ports>
+  <trace time="-1" />
+    <adminPass pass="PathFaithless" />
+<Memory>
+    <Commands>
+	  <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+    </Commands>
+    <Data>
+      <Block>Sin^2α + cos^2α</Block>
+      <Block>这就是你所要的其中一部分了</Block>
+	  <Block>关于我们的计划</Block>
+	  <Block>那个IP的一部分</Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+
+   <WhitelistAuthenticatorDaemon Remote="ATKWT"/>  
+   <file path="sys" name="MemScanData.dat">#BINARY#</file>
+   <dlink target="PreInter01" />
+   <dlink target="PreInter02" />
+   <dlink target="PreInter03" />
+  
+</Computer>

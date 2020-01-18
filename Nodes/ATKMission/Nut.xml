@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Nut"
+          name="Nut的办公室电脑"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>80, 1433, 6881, 554</ports>
+  <trace time="55" />
+  <proxy time="2" />
+
+  
+  <file path="sys" name="eos_Synclog.dat">#BINARYSMALL#</file>
+  <file path="home" name="eosDevicePwd.txt">Nutty</file>
+  
+  <eosDevice name="Nut的epad Air" id="NutPhone" icon="tablet" empty="true" passOverride="Nutty">
+    <mail username="Nut@ATKMail.com" pass="11Nut11" />
+  </eosDevice>
+  
+</Computer>

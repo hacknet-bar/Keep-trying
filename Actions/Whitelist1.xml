@@ -1,0 +1,24 @@
+<ConditionalActions>
+  
+   <OnAdminGained target="ATKInternal" >
+    <AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="20.0">你们有没有被这个白名单服务器卡住？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="23.0">对，卡住了</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="23.4">对</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="23.8">嗯</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="25.0">各位，我想我可以搞定，但是我需要@Coel的帮助</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="28.0">我会瘫痪这个节点一小会</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="31.0">Coel会对这个节点做点手脚</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="33.0">明白了</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="35.0">等我数到0，我就会瘫痪这个节点！</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="39.0">3</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="40.0">2</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="41.0">1</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="42.0">0</AddIRCMessage>
+	<CrashComputer TargetComp="ATKWhitelist1" CrashSource="MissionIRC" DelayHost="MissionIRC" Delay="42.1" />
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="44.0">Coel，快上！</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="49.0">稍等，很快就好</AddIRCMessage>
+	<DeleteFile TargetComp="ATKWhitelist1" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="MissionIRC" Delay="51.0"/>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="54.0">好了，你们应该能连上被这个白名单保护的服务器了</AddIRCMessage>
+  </OnAdminGained>
+
+</ConditionalActions>

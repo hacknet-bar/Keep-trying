@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CCC"
+          name="CCC 黑客小队 中转站"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1" >
+
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <trace time="1.5" />
+  <admin type="fast" />
+
+  <file path="sys" name="Gold_x-server.sys">#YELLOW_THEME#</file>
+   
+  <tracker />
+
+</Computer>

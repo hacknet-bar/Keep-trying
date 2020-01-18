@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="LAXPac" name="LAX 太平洋" type="1" ip="76.55.223.1" >
+
+  <portsForCrack val="6" />
+  <ports>80, 1433, 554, 443, 6881, 22</ports>
+  <trace time="-1" /> 
+<encryptedFile path="home" name="UnknownSource.dec" ip="233.230.165.8" header="WhitelistIP.txt" pass="Err0r2333333333333333333333333333333333333333333">
+Hey... You're here...
+This is your rewards!
+F U C K Y O U.
+  </encryptedFile>
+
+  
+</Computer>

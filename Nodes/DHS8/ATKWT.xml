@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKWT" name="ATK 内部白名单" type="1">
+
+  <portsForCrack val="7" />
+  <ports>1433, 554, 443, 21, 22, 80, 6881</ports>
+  <trace time="80" />
+  <firewall level="7" additionalTime="1.5"/>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+</Computer>

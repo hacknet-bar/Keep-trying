@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Unknown4" 
+          name="Unknown4" 
+          security="7"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="8" />
+  <ports>443, 22, 6881, 554, 21, 25, 80, 104</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <trace time="78" />
+
+<file path="home" name="Rdm.txt">如果不会的话可以试下这个：IhateMaths</file>
+<file path="sys" name="MemScanData.dat">#BINARY#</file>
+   
+   
+     <Memory>
+    <Commands>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+    </Commands>
+    <Data>
+      <Block>这是作者的恶意</Block>
+      <Block>
+没错
+如果你是个聪明的人
+那么
+就来吧
+      </Block>
+    </Data>
+    <Images>
+      <Image>Image/TaskQRCode.png</Image>
+    </Images>
+  </Memory>
+</Computer>

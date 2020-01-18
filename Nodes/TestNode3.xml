@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="testNode3" 
+          name="Gas-作战基地" 
+          ip="96.157.204.183"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="DLCLaptop" 
+          type="1" > 
+
+  <portsForCrack val="2" />
+  <ports>554, 22, 80, 1433</ports>
+  <trace time="30" />
+
+  
+  
+  <eosDevice name="Gas的ePhone 7" id="testNode3Phone" icon="ePhone2" empty="true" passOverride="alpine">
+    <note>本月待办事项
+与Nut研究新破解器的使用
+查看缓存服务器，看看J那该死的混球有没有乱放什么东西
+查看监视器</note>
+    <note>占位符
+Gas，我连接上你的手机了，这是我留下的消息记录
+asdf hjkl
+-Nut</note>
+    <mail username="Gas@boxmail.com" pass="republic20" />
+    <file path="eos/security" name="GAStrapRolling.runtime">100110101010101010101010100111001011001101011010101011010101001101010101010101010101010101001101001011010101010111010101000101100001010001010101101010101001100101100110010101101010101010101010100110010110101101010100110001010101010110010110100101010110000101010101010</file>
+  </eosDevice>
+  
+  
+  
+  <file path="home" name="testnote.txt">当你看到这个的时候
+你可能已经通过某种方式进入了我的PC  
+So黑客
+我希望你能善待这台电脑
+它已经陪伴我很久了
+另外，这台电脑可没什么值钱的东西.</file>
+  <file path="home" name="mail.txt">去吧J. 128.64.89.177</file>
+   <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+
+</Computer>
+
+  

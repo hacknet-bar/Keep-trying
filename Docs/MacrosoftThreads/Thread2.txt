@@ -1,0 +1,18 @@
+#Duck
+Hey,  what do you think of the firewall?
+------------------------------------------
+>Not bad.
+------------------------------------------
+I think Macrosoft's security services are good.But there are a little bit....insufficient 
+------------------------------------------
+#Duck
+Why?
+------------------------------------------
+#Chip
+I think so.I always think that our firewall is weak.
+------------------------------------------
+#Speech
+emmm. You should check our firewall control service first.
+------------------------------------------
+>Alright.XD
+------------------------------------------

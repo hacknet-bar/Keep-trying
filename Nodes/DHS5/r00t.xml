@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="r00t" 
+name="r00t 作战基地" 
+type="1"
+icon="DLCPC1"
+security="4"
+allowsDefaultBootModule="false">
+
+  
+  <portsForCrack val="6" />
+  <ports>22, 21, 25, 80, 6881, 1433</ports>
+  <trace time="80" />
+ <firewall level="6" solution="r00tishere" additionalTime="1.0"/>
+
+  <file path="Surprise" name="PointClicker.zip">#BINARY#</file>
+
+<dlink target="r00tBackup" />  
+  
+  
+</Computer>

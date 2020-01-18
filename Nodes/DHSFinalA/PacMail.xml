@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PacMail" 
+name="太平洋航空 邮件服务器" 
+allowsDefaultBootModule="true"
+security="3"
+type="1" > 
+
+  <adminPass pass="YOUCANTGETTHEADMINPASS" />
+  
+  <ports>80,22,21,25,1433</ports>
+  <portsForCrack val="99999998" />
+  
+    <WhitelistAuthenticatorDaemon Remote="PacWT" />
+  <account username="Faith" password="AreYouKiddingMe" type="2" />
+  
+  <mailServer name="太平洋航空 邮箱" color="24,231,225" generateJunk="true">
+     <email recipient="Faith" sender="Yusa" subject="密码事项">
+嘿嘿，他们并不会想到我的密码不是这个。
+我的密码可是“他”的父亲，全大写呢！
+他是谁？我可是在IRC里面提到过的！
+    </email>
+	 <email recipient="Faith" sender="TheShj" subject="密码事项">
+应该是你吧....
+别把IRC的账号密码忘了。
+账号:Faith
+密码:HelloWorld
+    </email>
+  </mailServer>  
+  
+</Computer>

@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+   <OnAdminGained target="Lisa" >
+    <AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="12.0">@Channel</AddIRCMessage>
+	<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="15.0">我们这里遇到了一份解不开的Dec文本</AddIRCMessage>
+	<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="18.0">你们有时间的话来看看这份加密文本</AddIRCMessage>
+	<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="20.0">!ATTACHMENT:link#%#LAX 太平洋#%#76.55.223.1</AddIRCMessage>
+  </OnAdminGained>
+
+
+</ConditionalActions>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroFirewall"
+          name="Macrosoft 防火墙控制"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>80, 22, 21, 554</ports>
+  <trace time="55" />
+  <admin type="progess"/>
+  <proxy time="2"/>
+  <firewall level="5" solution="Macrosoftwa11" additionalTime="0.09"/>
+  
+  
+  <file path="home" name="FirewallReadme.txt">macrosoft的防火墙经过了强化
+基本上属于无懈可击的状态
+通用密码为 macrosoft-firewallservice-0018</file>
+  
+</Computer>

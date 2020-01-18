@@ -1,0 +1,6 @@
+<ConditionalActions>
+  
+  <Instantly>
+	<CancelScreenBleedEffect DelayHost="MissionIRC" Delay="0" />
+  </Instantly>
+</ConditionalActions>

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TenBaBL" 
+          name="TenBa 黑名单" 
+          security="8"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+  <portsForCrack val="7" />
+  <ports>1433, 22, 80, 21, 554, 6881, 25</ports>
+  <trace time="70" />
+
+
+<file path="Blacklist" name="[Jackson].txt">Jackson</file>
+<file path="Blacklist" name="[Martin].txt">Martin</file>
+<file path="Blacklist" name="[Jack].txt">Jack</file>
+<file path="Blacklist" name="[Ben].txt">Ben</file>
+<file path="Blacklist" name="[Andrew].txt">Andrew</file>
+<file path="Blacklist" name="[Vaper].txt">Vaper</file>
+<file path="Blacklist" name="[Yan].txt">Yan</file>
+<file path="Blacklist" name="[Zacker].txt">Zacker</file>
+<file path="Blacklist" name="[Van].txt">Van</file>
+<file path="Blacklist" name="[Dickson].txt">Dickson</file>
+<file path="Blacklist" name="[K].txt">K</file>
+<file path="Blacklist" name="[Vamper].txt">Vamper</file>
+<file path="Blacklist" name="[Jacob].txt">Jacob</file>
+<file path="Blacklist" name="[Jonson].txt">Jonson</file>
+   
+
+
+	 
+</Computer>

@@ -1,0 +1,17 @@
+-------Preparing for booting...-------
+  
+Checking folders... 0 error(s) found
+  
+Checking system.......... 1 error(s) found
+  
+Security Tracker is running...
+  
+No logs detected
+  
+It will be ignored......
+  
+All clear!
+  
+---------------Booting...---------------
+ 
+Welcome Back.

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="GasDelay" name="Gas 中继" type="1" icon="DLCPC1">
+
+  <portsForCrack val="1" />
+  <ports>32</ports>
+  <trace time="-1" />
+<adminPass pass="GasIsHere" />
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+<encryptedFile path="home" name="rc.dec" extension=".txt" ip="202.165.63.4" header="Private" pass="Itdoesntmatter">
+Your
+punishment
+hehe.
+FUCK You.</encryptedFile>
+</Computer>

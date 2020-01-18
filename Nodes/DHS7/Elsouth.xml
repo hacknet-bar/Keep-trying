@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Elsouth" name="电力网 - 南" security="5" type="4" >
+
+  <portsForCrack val="1" />
+  <ports>32</ports>
+  <trace time="-1" />
+  <proxy time="2" />
+  <firewall level="6" additionalTime="0.04"/>
+  <admin type="basic" resetPassword="false" isSuper="false"/>
+  <adminPass pass="*" />
+
+
+<file path="electric" name="electric.dll">#BINARYSMALL#</file>
+<file path="electric" name="electricMain.dll">#BINARY#</file>
+<file path="electric" name="electricStop.dll">#BINARY#</file>
+<file path="electric" name="electricControl.dll">#BINARYSMALL#</file>
+<file path="electric" name="electricweb.dll">#BINARYSMALL#</file>
+<file path="electric" name="electricBackup.dll">#BINARYSMALL#</file>
+<file path="electric" name="electricMainBackup.dll">#BINARY#</file>
+<file path="electric" name="electricStopBackup.dll">#BINARY#</file>
+<file path="electric" name="electricControlBackup.dll">#BINARYSMALL#</file>
+<file path="electric" name="electricwebBackup.dll">#BINARYSMALL#</file>
+  
+<WhitelistAuthenticatorDaemon Remote="ElWT" />
+</Computer>

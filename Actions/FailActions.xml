@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+<Instantly>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+<KillExe DelayHost="Cheater" Delay="0.0" ExeName="*"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<CrashComputer TargetComp="EntechFinal" CrashSource="cheater" DelayHost="Cheater" Delay="0.0" />
+<AddConditionalActions Filepath="Actions/FinalAction.xml" DelayHost="Cheater" Delay="0.0"/>
+
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="1.0">@#PLAYERNAME# 不要放弃，现在还没有太晚！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3.0">再试一次！</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>
+ 

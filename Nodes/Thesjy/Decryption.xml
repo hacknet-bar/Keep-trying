@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Decryption" 
+          name="资源存放中心" 
+          ip="54.45.98.89"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" > 
+
+  <portsForCrack val="5" />
+  <ports>443, 22, 6881, 554, 21</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <trace time="65" />
+
+
+<file path="home" name="chat2.txt">DrivingMeMad</file>
+<encryptedFile path="home" name="Maths.dec" extension=".txt" ip="LocalHost" header="Error" pass="IhateMaths">
+答案就是72哒！
+  </encryptedFile>
+
+   
+</Computer>

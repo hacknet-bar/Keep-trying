@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ElWT" name="电力网 - 白名单" security="5" type="4" ip="88.105.86.254">
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 80, 554, 1433, 6881</ports>
+  <trace time="82" />
+  <proxy time="2" />
+  <firewall level="6" additionalTime="0.04"/>
+  <admin type="basic" resetPassword="false" isSuper="false"/>
+  
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+</Computer>

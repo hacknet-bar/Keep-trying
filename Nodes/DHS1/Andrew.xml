@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Andrew" name="Andrew的卧室PC" type="empty" allowsDefaultBootModule="false" security="3" >
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 25, 6881</ports>
+  <trace time="70" />
+
+  <file path="home" name="EndroidPreviewPt1.zip">#BINARY#</file>
+  <file path="home" name="EndroidPreviewPt2.zip">#BINARY#</file>
+  <file path="home" name="EndroidPreviewPt3.zip">#BINARY#</file>
+  <file path="home" name="EndroidPreview.dll">#BINARY#</file>
+  
+  <CustomConnectDisplayDaemon />
+   
+  <file path="bin" name="Helpme.txt">嘿...对不起...
+我用了你的30000元去购买了FTPBounce.exe
+我打算加入Entropy，去成为一个资深黑客...
+Entropy是一个新手黑客的速成圣地，我必须要到达那里...
+最近我得到了Endroid的一些奇怪的压缩包和一个dll程序
+P，不如你过来看一下？
+-你的
+Andrew</file>
+  <dlink target="AndrewWifi" />
+</Computer>

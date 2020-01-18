@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSFinalB" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+<goal type="getstring" target="192.156.81.9" />
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHSFinalB.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="ATK - 阻止 B" reqs="DHSFinalB" >
+找到FinalEnd的存储地点
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>ATK - 阻止 B</subject>
+    <body>...情况不用我再详细多说明了吧...
+我们需要找到FinalEnd的存储地点，同时等待A队的人找到破解器...
+Entech或许是个最佳的切入点，尽管那里几乎无懈可击...
+但是，世界上没有不透风的墙，仔细搜寻，你们一定能找到一些蛛丝马迹的...
+
+-Err0r233</body>
+    <attachments>
+<note title="任务笔记">找到FinalEnd的存储地点</note>
+	  <link comp="EntechInternal" /> 
+    </attachments>
+  </email>
+</mission>

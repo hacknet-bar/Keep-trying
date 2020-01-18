@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroInternal"
+          name="Macrosoft 内部服务器"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 554, 6881</ports>
+  <trace time="55" />
+  <admin type="progess"/>  
+  <firewall level="99" solution="macrosoft-firewallservice-0018" additionalTime="99"/>
+  <portRemap>web=8080,22=9999,6881=10451</portRemap>
+  
+  <file path="home" name="WiFi.txt">路由器访问：198.75.33.212</file>
+  <file path="home" name="Macrosoft.iso">#BINARY#</file>
+  <file pate="home" name="Macrosoft_v1893.iso">#BINARY#</file>
+  <file pate="home" name="Macrosoft_v1701.iso">#BINARY#</file>
+  <file pate="home" name="Macrosoft_v1694.iso">#BINARY#</file>
+  <file pate="home" name="Macrosoft_v10089_insideView.iso">#BINARY#</file>
+    <tracker />
+</Computer>

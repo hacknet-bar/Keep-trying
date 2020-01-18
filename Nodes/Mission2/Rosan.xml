@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Rosan"
+          name="Rosan的笔记本电脑"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCLaptop"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 554, 6881, 1433</ports>
+  <trace time="60" />
+  <adminPass pass="WORSEOr" /> 
+
+  
+  <file path="project" name="helpme.txt">求助
+本人急需一种编译源码，名字叫做CX编码
+这种源码十分少见
+但是我需要立即使用</file>
+
+  <file path="project" name="BitHub.html">10101010101010101001011001101010100100110</file>
+  
+  <file path="project" name="Locker.dll">10001101010101010101010101010101010110100110100101000001010101100110010101</file>
+  
+  <file path="project" name="Test.bat">1010110101001010110011010101010101001010110101010101010101010100110101010101010101010101010101001011010101010</file>
+ 
+  <file path="project" name="Report.txt">错误已找到：
+Fatal Error:文件缺失：Consider.cx
+Warning: Consider.cx没有被检测到</file> 
+
+  <file path="home" name="helpme.txt">求助
+本人急需一种编译源码，名字叫做CX编码
+这种源码十分少见
+但是我需要立即使用</file>
+
+  <file path="home" name="cache.tmp">101010101010101010101001010101101001101010101010101010101010101010101101010101010101010100101010110101010100110101010</file>
+</Computer>

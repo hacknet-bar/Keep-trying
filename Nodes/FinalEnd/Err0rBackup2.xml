@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Err0rBackup2" name="Err0r 备份服务器 2" type="empty" >
+
+  <portsForCrack val="2" />
+  <ports>22, 554</ports>
+  <trace time="-1" />
+  
+    <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+	<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+	<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+  <file path="home" name="Keepgoing">Scan一下，你就知道</file>
+  
+  <dlink target="Err0rBackup3" />
+</Computer>

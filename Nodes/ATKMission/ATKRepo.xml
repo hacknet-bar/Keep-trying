@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKRepo"
+          name="ATK Repo"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="7" />
+  <ports>9418, 3724, 3659</ports>
+  <trace time="-1" />
+  <adminPass pass="CounterATK" /> 
+
+  <WhitelistAuthenticatorDaemon Remote="ATKWhitelist2" />
+  
+  <file path="home" name="Clock.txt">Go ON！</file>
+  
+  <dlink target="1Clock" />
+  <dlink target="2Clock" />
+  <dlink target="3Clock" />
+  <dlink target="4Clock" />
+  <dlink target="5Clock" />
+  <dlink target="6Clock" />
+  <dlink target="7Clock" />
+  <dlink target="8Clock" />
+  <dlink target="9Clock" />
+  <dlink target="10Clock" />
+  <dlink target="11Clock" />
+  <dlink target="12Clock" />
+</Computer>

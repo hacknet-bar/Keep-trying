@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroMail" 
+name="Marcosoft 邮件服务器" 
+allowsDefaultBootModule="true"
+ip="128.64.89.188"
+security="6"
+type="1" > 
+
+  <portsForCrack val="1" />
+  <ports>9418, 3724, 3659</ports>
+  <trace time="-1" />
+
+  <account username="GillBates" password="macrosoftCEO" type="2" />
+  
+  <mailServer name="Macrosoft Mail" color="41,233,70" generateJunk="true">
+    <email recipient="GillBates" sender="Rudus" subject="解码软件">
+很快，Decypher就要完成了，到时候我会上传到核心服务器的
+    </email>
+  
+  	 <email recipient="GillBates" sender="D3f4ult" subject="白名单">
+收到了，IP 159.164.73.1，我会往里面添加自己的IP的
+     </email>
+  	 <email recipient="GillBates" sender="Kaguya" subject="路由器">
+重启路由器中，你们目前可能连接不了，很快就好
+</email>
+  </mailServer>
+</Computer>

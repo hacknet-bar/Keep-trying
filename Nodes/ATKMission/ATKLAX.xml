@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKLAX"
+          name="LAX_ATK"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>80, 22, 554, 21, 6881, 1433</ports>
+  <trace time="60" />
+  <admin type="progess"/>
+  <proxy time="2" />
+  
+
+  
+  <file path="bin" name="FinalEndTest.dll">#BINARY#</file>
+  
+  <dlink target="ATKRepo" />
+  <dlink target="ATKInternal" />
+  <dlink target="ATKCore" />
+</Computer>

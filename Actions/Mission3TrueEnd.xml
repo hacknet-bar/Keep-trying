@@ -1,0 +1,30 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <RunFunction FunctionName="addRank" FunctionValue="10" />
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="10.0">我做到了</AddIRCMessage>
+    <AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="13.0">厉害了，@#PLAYERNAME#</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="15.0">那么这样一来...</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="19.0">我们就拥有了新的技术支持了</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="22.0">哇伊，好耶！</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="25.0">...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="28.0">怎么了@Err0r233</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="30.0">没什么，我只是在想...</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="33.0">那个ATK组织，为什么要追踪我们</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="36.0">我想问问...ATK是啥</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="39.0">ATK...是一个组织的称呼，这个组织的人曾经追踪过我们</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="42.0">是吗...</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="46.0">那么@Err0r233你的意思就是</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="50.0">探查ATK组织</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="50.2">探查ATK组织</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="50.4">探查ATK组织</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="50.5">探查ATK组织</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="54">正是</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="57">这是一次大型任务，所以要辛苦各位了</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="60">...又有活要干了</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="63">这不就是印证了那句啥来着</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="66">苦中作乐...</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="69">嗯，对</AddIRCMessage>
+	<LoadMission MissionName="Missions/ATKMission.xml" Delay="58"/>
+  </Instantly>
+</ConditionalActions>

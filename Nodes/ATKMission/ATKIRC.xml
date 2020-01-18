@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKIRC" 
+          name="ATK-Private IRC" 
+          security="3"
+          allowsDefaultBootModule="true"
+		  ip="45.96.80.5"
+          icon="DLCServer" 
+          type="1" > 
+
+  <portsForCrack val="10" />
+  <ports>443, 22, 80</ports>
+  <portRemap>22=192</portRemap>
+  <trace time="30" />
+  <admin type="fast"/>
+  <adminPass pass="ATK-IRC-Admin------" />
+  <WhitelistAuthenticatorDaemon Remote="ATKWhitelist1" />
+  
+ <account username="Lucas" password="P1easedLu" type="0" />
+  
+  <IRCDaemon themeColor="67,204,148" name="ATK Private IRC" needsLogin="true">
+    <user name="JamesBreaker" color="0,209,232"/>
+    <user name="Gas" color="202,98,0"/>
+    <user name="Nut_Natty" color="0,196,82"/>
+	<user name="Lucas" color="255,0,0" />
+
+    <post user="Gas">我觉得James越来越傻了</post>
+    <post user="Nut_Natty">？</post>
+    <post user="Lucas">咋了</post>
+    <post user="Gas">他上次在IRC当众和我说</post>
+    <post user="Gas">“Gas，你能不能帮我搞下我的电脑？密码是James1130”</post>
+    <post user="Lucas">我日，6666666</post>
+    <post user="Nut_Natty">233</post>
+    <post user="Nut_Natty">优秀</post>
+    <post user="Gas">我也是服了他了</post>
+  </IRCDaemon>
+
+
+   <file path="bin" name="Nothing.exe">#BINARY#</file>
+   
+   <file path="bin" name="Stopit.exe">#BINARY#</file>
+  
+</Computer>

@@ -1,0 +1,8 @@
+<ConditionalActions>
+  
+  <OnConnect target="Proxy05" needsMissionComplete="false">
+<RunFunction FunctionName="playCustomSong:Music/Cool.ogg"/>
+  </OnConnect>
+
+</ConditionalActions>
+ 

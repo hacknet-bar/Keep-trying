@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKT" name="ATK - 合作" type="1" icon="DLCPC1">
+
+  <portsForCrack val="5" />
+  <ports>80, 22, 25, 21, 554, 1433</ports>
+  <proxy time="2" />
+  <trace time="75" />
+<WhitelistAuthenticatorDaemon Remote="down"/>
+<dlink target="GasDelay" />
+<Memory>
+    <Commands>
+      <Command>cd /home</Command>
+      <Command>cat Gas.txt</Command>
+      <Command>cd /home</Command>
+      <Command>rm *.home</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>forkbomb</Command>
+      <Command></Command>
+    </Commands>
+    <Data>
+      <Block>admin GasIsHere</Block>
+      <Block>
+      </Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+  <file path="home" name="MemScanData.dat">#BINARYSMALL#</file>
+</Computer>

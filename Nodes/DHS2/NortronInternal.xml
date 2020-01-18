@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NortronInternal" 
+          name="Nortron 内部服务器" 
+          security="8"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="3" />
+  <ports>25, 22, 80</ports>
+  <trace time="60" />
+  <admin type="progess" resetPassword="false"/>
+   <firewall level="99" solution="123456789bcd" additionalTime="33"/>  
+     <proxy time="2" />
+  <file path="home" name="memDataReadme.txt">在一台电脑里如果有MemScanData.dat这样的文件
+那么就代表着这台PC可能会有Mem缓存日志
+尝试着用你的MemDumpGenerator.exe吧！</file>
+  <file path="sys" name="MemScanData.dat">#BINARYSMALL#</file>
+  
+  <Memory>
+    <Commands>
+	  <Command>ping 73.98.188.4</Command>
+      <Command>ping 73.98.188.4</Command>
+      <Command>ping 73.98.188.4</Command>
+      <Command>ping 73.98.188.4</Command>
+      <Command>ping 73.98.188.4</Command>
+      <Command>ping 73.98.188.4</Command>
+      <Command>ping 73.98.188.4</Command>
+    </Commands>
+    <Data>
+      <Block></Block>
+      <Block>
+      </Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+  <dlink target="NortronProject" />
+</Computer>

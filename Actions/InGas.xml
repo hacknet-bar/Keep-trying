@@ -1,0 +1,45 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionDHS" needsMissionComplete="false">
+<RunFunction FunctionName="setHubServer:MissionDHS"/>
+<LoadMission MissionName="Missions/ATK/ATKCheck.xml"/>
+<ChangeAlertIcon Target="MissionDHS" Type="irchub" DelayHost="MissionIRC" Delay="1.0"/>
+
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="-100">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="-90">用户 "Err0r233" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="-60">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="-59">用户 "Jex" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="-45">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="-44">用户 "Coel" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="-35">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="-34">用户 "Alex" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="-20">天啊，还好你们没事</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="-15">呵，你以为我们是谁？</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="-5">#PLAYERNAME#去哪了？怎么没见他的踪影</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="-1">不知道，但我觉得他应该会没事的</AddIRCMessage>
+
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="3.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="3.5">用户 "#PLAYERNAME#" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="5.5">我就说嘛，你肯定会回来的</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="9">@#PLAYERNAME#，欢迎回来</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="13">准备好和我们再来愉快地玩耍了吗？</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="16">@Coel，一段时间不见你怎么就变成这样了</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="20">emmmmmm</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="24">既然大家都在这里了，那么</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="28">我想让大家去找下关于ATK的更多消息</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="30">关于什么的？</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="32">ATK组织里的事情，ATK不可能无缘无故就来找我们事情</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="35">我需要你们来帮我继续寻找</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="38">但是，这次任务我觉得只需要@#PLAYERNAME#就够了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="42">他的能力胜过我们全部</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="45">？？？WTF？</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="48">加油哦 :)</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="49">我觉得Err0r233的话说得很有道理</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="50">+1</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="52">祝好运哦！</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="55">靠，没天理啊</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="57">!ANNOUNCEMENT!我已经帮你搜索到一个前端IP了@#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="60">!ATTACHMENT:link#%#ATK代理节点 05#%#224.151.26.193</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

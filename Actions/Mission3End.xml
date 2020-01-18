@@ -1,0 +1,24 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="10">各位，@#PLAYERNAME#遇上了点麻烦，我们需要帮助他...</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="13.0">另外，其实我一直在想，我们的人员是不是太少了点</AddIRCMessage>
+    <AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="16.0">的确啊，就我们四个人在这里</AddIRCMessage>
+    <AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="19.0">赞同</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="22.0">那不如我拉一个成员进来？我觉得她值得信任</AddIRCMessage>
+    <AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="25.0">可以，你拉吧</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="29.0">Alert！</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="29.2">=====================</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="29.4">@Coel进入了IRC</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="29.6">=====================</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="31.0">嗨呀，你们好啊:)</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="34.0">欢迎加入SES，从现在开始我们就一起共事啦</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="36.0">你好，我叫Alex，另外一个人叫Jex</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="40.0">你好</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="43">@Coel，你先熟悉下环境，我还有任务要做</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="46">好的，祝你好运哦@#PLAYERNAME#</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="48">祝我好运也没用，Macrosoft的防火墙太硬了</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="52">emmm，或许你可以从这里下手@#PLAYERNAME#</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="55">!ATTACHMENT:link#%#Macrosoft 售后服务#%#16.38.77.101</AddIRCMessage>
+ </Instantly>
+</ConditionalActions>

@@ -1,0 +1,16 @@
+<ConditionalActions>
+  
+<Instantly>
+<AddIRCMessage Author="Maoyu" TargetComp="SecretIRC" Delay="0">@#PLAYERNAME#正在搜索...</AddIRCMessage>
+<StartScreenBleedEffect AlertTitle="FinalEnd Security ATTACK" CompleteAction="Actions/bad_end.xml" TotalDurationSeconds="390.5" DelayHost="Cheater" Delay="12.5">找到FinalEnd Kaguya Gas
+删除一切
+断开</StartScreenBleedEffect>
+<LoadMission MissionName="Missions/Thesjy/ThesjyFinal.xml"/>
+<RunFunction FunctionName="playCustomSong:Music/Border_of_Life.ogg" />
+<AddIRCMessage Author="Maoyu" TargetComp="SecretIRC" Delay="6">一半了...</AddIRCMessage>
+<AddIRCMessage Author="Maoyu" TargetComp="SecretIRC" Delay="9.5">@#PLAYERNAME# @Channel 找到了！我会将你们连接到那里的</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="9.5">干得好 Maoyu</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="10.5">来吧...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="12.3">@#PLAYERNAME# GOGOGOGOGOGO!</AddIRCMessage>
+</Instantly>
+</ConditionalActions>

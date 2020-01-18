@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKInternet" name="ATK 网络服务器" type="empty">
+
+  <portsForCrack val="6" />
+  <ports>443, 22, 80, 25, 1433, 554</ports>
+  <trace time="75" />
+
+  <dlink target="ATK Field" />
+  <dlink target="ATK Soild" />
+  <dlink target="ATKStation" />
+   
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  
+</Computer>

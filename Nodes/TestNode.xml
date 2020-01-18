@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="testNode" name="J.Breaker办公室电脑" type="empty">
+
+  <portsForCrack val="0" />
+  <ports>443, 22, 80</ports>
+  <trace time="-1" />
+
+  <file path="home" name="note.txt">我想这不是个好计划...
+我需要你做担保...
+-J</file>
+  <file path="home" name="Tracklog.log">Auto Tracker list
+======================================================
+Trackerid: Err0r233 IP: Get lost. Status:Unknown
+Trackerid: Alex IP: Get lost. Status:Unknown
+Trackerid: Jex11 IP: Get lost. Status:Unknown
+Trackerid: #PLAYERNAME# IP: #PLAYER_IP#
+======================================================
+这就是你想要的日志了.. Gas
+其中3个人已经丢失了连接..很他们将布置的监视硬件删除了...
+但是表面上慌的一批，实际上稳如老狗
+别忘了还有一个人在这呢
+那个人...他现在还受我们的监控呢
+我相信我们一定能找出他们:)
+-J
+于9.15</file>
+  <file path="home" name="IPs.txt">一些不能忘记的IP:
+monitor1:45.98.144.27 已死
+monitor2:66.75.186.29 已死
+monitor3:98.104.238.10 已死
+monitor4:我好像忘记了.. 根据上次ping的情况来看应该还活着
+ATK总部IP：88.166.238.7
+ATK-缓存服务器：104.12.66.87
+Gas的个人PC：96.157.204.183
+该死的Gas 总是让我记这么多IP
+-J
+于9.12
+为什么我非要在每个文件下留下我的署名？？？</file>
+  <file path="home" name="important.txt">
+1=31   2=32   3=33   4=34   5=35   6=36   7=37   8=38   9=39   0=30
+
+a=61   b=62   c=63   d=64   e=65   f=66   ......   o=6f   s=73   ......   A=41   B=42   C=43   D=44   E=45   F=46 </file>
+   
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  
+</Computer>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="D3f4ult"
+          name="D3f4ult的笔记本电脑"
+          ip="144.144.144.144"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="Laptop"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>80, 21, 22, 554, 6881, 25</ports>
+  <trace time="-1" />
+  <admin type="progess"/>  
+  
+  <customthemefile path="sys" name="Coel_x-server.sys" themePath="Themes/CoelTheme.xml" />
+  
+  <file path="home" name="Thanks.txt">谢谢你Coel，XD</file>
+  <file path="home" name="Cache.tmp">.76.3</file>
+</Computer>

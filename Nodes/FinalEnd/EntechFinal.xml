@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EntechFinal" name="Entech 离线 缓存 10" type="empty" ip="253.157.45.2">
+
+  <portsForCrack val="9" />
+  <ports>22, 25, 80, 443, 554, 1433, 6881, 21, 192</ports>
+    <portRemap>80=65500,22=65501,1433=65530,192=7979,443=10458</portRemap>
+  <trace time="160" />
+  <admin type="fast" resetPassword="false" isSuper="true"/>
+  <proxy time="3.5" />
+  <firewall level="8" solution="digitalEnd" additionalTime="0.07"/>
+   <file path="sys" name="FinalEndtest.exe">#BINARYSMALL#</file>
+   <file path="sys" name="EnSec.dll">#BINARYSMALL#</file>
+   <file path="sys" name="MacrosoftWall.dll">#BINARYSMALL#</file>
+   <file path="sys" name="SecurityTracker.dll">#BINARYSMALL#</file>
+   <file path="sys" name="icon.png">#BINARYSMALL#</file>
+   <file path="sys" name="Control.exe">#BINARYSMALL#</file>
+   <file path="sys" name="[Package].zip">#BINARY#</file>
+  
+</Computer>

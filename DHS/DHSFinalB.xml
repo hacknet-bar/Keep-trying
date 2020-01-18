@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="DHSFinalB">
+<AddMissionToHubServer MissionFilepath="Missions/DHSMission/DHSFinalB.xml" TargetComp="MissionDHS"/>
+</HasFlags>
+
+</ConditionalActions>

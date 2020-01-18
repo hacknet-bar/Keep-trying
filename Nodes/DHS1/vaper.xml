@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="vaper" name="vaper个人笔记本" type="empty" allowsDefaultBootModule="true">
+
+  <portsForCrack val="4" />
+  <ports>21, 22, 80, 25</ports>
+  <trace time="60" />
+
+  <file path="home" name="EndroidPreviewPt1.zip">#BINARY#</file>
+  <file path="home" name="EndroidPreviewPt2.zip">#BINARY#</file>
+  <file path="home" name="EndroidPreviewPt3.zip">#BINARY#</file>
+  <file path="home" name="EndroidPreview.dll">#BINARY#</file>
+  
+
+  <CustomConnectDisplayDaemon />
+   
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+   <file path="bin" name="SSHCrack.txt">可以打开SSH端口的破解器...有趣</file>
+  
+  <dlink target="Andrew" />
+</Computer>

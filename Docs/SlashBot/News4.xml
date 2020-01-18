@@ -1,0 +1,21 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="News4">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Error">
+Error
+
+测试文本，切勿展示在新闻页面上！测试文本，切勿展示在新闻页面上！测试文本，切勿展示在新闻页面上！
+
+-SlashBot Auto Upload Robot
+  </posting>
+  <email>
+    <sender>HackNet</sender>
+    <subject>ERROR</subject>
+    <body>未知错误
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

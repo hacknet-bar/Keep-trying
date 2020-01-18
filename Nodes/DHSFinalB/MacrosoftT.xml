@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacrosoftT" name="Macrosoft - 合作" type="1" icon="DLCPC1">
+
+  <portsForCrack val="6" />
+  <ports>80, 22, 25, 21, 554, 1433</ports>
+  <proxy time="2" />
+  <trace time="78" />
+
+<file path="home" name="ATK-WT-Pwd.txt">Scan</file>
+
+</Computer>

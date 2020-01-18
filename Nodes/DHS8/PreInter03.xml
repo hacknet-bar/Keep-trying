@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PreInter03" name="03" type="1" icon="chip">
+
+  <portsForCrack val="7" />
+  <ports>1433, 6881, 554, 80, 443, 22, 25</ports>
+  <trace time="82" />
+<file path="home" name="Inter.txt">Rus=9.22</file>
+</Computer>

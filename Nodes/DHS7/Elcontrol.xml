@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ElControl" name="电力总控" security="1" type="4">
+
+  <portsForCrack val="7" />
+  <ports>22, 21, 25, 80, 554, 1433, 6881</ports>
+  <trace time="82" />
+  <proxy time="2" />
+  <firewall level="6" additionalTime="0.04"/>
+  <admin type="basic" resetPassword="false" isSuper="false"/>
+  
+<WhitelistAuthenticatorDaemon Remote="ElWT" />  
+  
+  <file path="home" name="password.txt">电网密码更改
+账号：admin  密码：*</file>
+  <Memory>
+    <Commands>
+	  <Command>ping 88.105.86.254</Command>
+      <Command>login</Command>
+      <Command>cd /Whitelist</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /home</Command>
+      <Command>rm *.home</Command>
+    </Commands>
+    <Data>
+      <Block></Block>
+      <Block>
+      </Block>
+    </Data>
+    <Images>
+      <Image></Image>
+    </Images>
+  </Memory>
+  <dlink target="Eleast" />
+  <dlink target="Elsouth" />
+  <dlink target="Elwest" />
+  <dlink target="Elnorth" />
+</Computer>

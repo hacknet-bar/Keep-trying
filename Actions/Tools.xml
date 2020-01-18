@@ -1,0 +1,23 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionDHS" needsMissionComplete="false">
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="false" IsHidden="false" />
+<LoadMission MissionName="Missions/DHSMission/DownloadMission.xml"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/HOME_Resonance.ogg"/>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3.0">@Channel，大家...都没事吧</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="5.0">还行，他没有做什么出格的事情...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="9.0">Jex与Alex...</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="11.0">放心，他们会没事的</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="15.0">只需要将FinalEnd打垮，他们就会回来</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="18.0">是的@Coel</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="21.0">问题是，Gas删除了我们的破解工具..</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="25.0">而且我们的共享服务器好像挂掉了...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="27.0">该死...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="30.0">还好我有个备份</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="32.0">你们先去下载工具，下载完再回到这里</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="33.0">!ATTACHMENT:link#%#Err0r 备份服务器#%#192.185.76.3</AddIRCMessage>
+  </OnConnect>
+
+</ConditionalActions>

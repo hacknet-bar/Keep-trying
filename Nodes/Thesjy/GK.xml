@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="GK" 
+          name="Unknown-通讯" 
+          ip="49.158.72.233"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" > 
+
+  <portsForCrack val="7" />
+  <proxy time="3" />
+  <firewall level="8" solution="Cooperation" additionalTime="0.3"/>
+  <admin type="progress" resetPassword="false" isSuper="false"/> 
+  <ports>22, 25, 21, 80, 1433, 554, 104, 6881</ports>
+  <portRemap>22=2998, 6881=1234, 80=8080</portRemap>
+  <trace time="119" />
+<file path="sys" name="FNEA.dll">#BINARY#</file>
+<file path="sys" name="FN.dll">#BINARY#</file>
+<file path="sys" name="GZGZ.dll">#BINARY#</file>
+<file path="sys" name="FinalEnd.dll">#BINARY#</file>
+<file path="sys" name="Icon.png">#BINARYSMALL#</file>
+<file path="sys" name="Unlocker.dll">#BINARY#</file>
+
+<dlink target="GasFinal" />
+<dlink target="KaguyaFinal" />
+
+</Computer>
+

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroWIFI"
+          name="Macrosoft 员工WIFI"
+          ip="198.75.33.212"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" >
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="60" />
+  <adminPass pass="1842" /> 
+  <WhitelistAuthenticatorDaemon Remote="MacroWhitelist1" />
+
+  <dlink target="Kaguya" />
+  <dlink target="D3f4ult" />
+</Computer>

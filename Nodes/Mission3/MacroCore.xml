@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroCore"
+          name="Macrosoft 核心技术"
+          ip="192.33.33.3"
+          security="10"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 80, 554, 6881, 1433</ports>
+  <trace time="75" />
+  <adminPass pass="MacroCoreProtect" /> 
+  <proxy time="3" />
+  <firewall level="99" solution="macrosoft-firewallservice-0018" additionalTime="99"/>
+  <admin type="fast"/>  
+  <portRemap>web=8080,22=9999,6881=10451</portRemap>
+  <tracker /> 
+ 
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  
+
+  <WhitelistAuthenticatorDaemon Remote="MacroWhitelist2" />
+  
+  <file path="home" name="activeLog.tmp">#BINARY#</file>
+  <encryptedFile path="home" name="activeLog.dec" extension=".log" ip="192.168.1.1" header="D3f4ult" >
+D3f4ult：看上去我们做到了
+Kaguya：是啊
+Rudus：也许我们可以先测试一下？？
+D3f4ult：可以，我上传一些加密文件在这里先，别忘记删了它们
+Kaguya：我去，SQLBufferOverflow！你是怎么找到的
+D3f4ult：我从一个叫做ATK的组织里找到的XD
+D3f4ult：据说密码是Hui_Night
+Kaguya：Hui_Night？ 什么意思？？
+Rudus：看来我们成功了，这解码速度看起来不赖
+Kaguya：不错AWA</encryptedFile>
+
+  <encryptedFile path="home" name="SQLBufferOverflow.dec" extension=".exe" ip="192.168.1.1" header="D3f4ult" pass="Hui_Night">#SQL_CRACK#</encryptedFile>
+
+</Computer>

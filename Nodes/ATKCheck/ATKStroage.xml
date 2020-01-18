@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKStroage" 
+          name="ATK-储存服务器" 
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+  <portsForCrack val="77" />
+  <ports>443, 22, 80</ports>
+  <trace time="-1" />
+  <adminPass pass="keepmoving" />
+  
+  <WhitelistAuthenticatorDaemon Remote="ATKStroageWT" />
+  
+    <tracker />
+	
+  <encryptedFile path="stroage" name="Tracking.dec" extension=".txt" ip="192.168.1.1" header="Entech(TM) Technology" pass="InvEntech">
+嘿...你说的，我已经收到了
+我马上就会派Lucas过去你们那边，我们的计划绝对不能被他们打破
+尽管他们对此一无所知...
+  </encryptedFile>
+  
+</Computer>

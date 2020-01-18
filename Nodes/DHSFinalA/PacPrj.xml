@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PacPrj" name="太平洋 项目服务器" type="1" ip="99.72.151.8">
+
+  <portsForCrack val="8" />
+  <ports>22, 21, 25, 80, 443, 554, 1433, 6881, 192</ports>
+  <trace time="110" />
+  <proxy time="4" />
+<firewall level="6" solution="Project" additionalTime="0.2"/>
+  <encryptedFile path="bin" name="PacificPortCrusher.dec" extension=".exe" ip="192.168.1.1" header="PacificPortCrusher.exe" pass="Impossible">#PACIFIC_EXE#</encryptedFile>
+
+  
+</Computer>

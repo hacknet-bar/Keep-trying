@@ -1,0 +1,48 @@
+config playerComp ATKIRC 0.0 $#%#$
+connect $#%#$
+delay 1 $#%#$
+hideRam $#%#$
+clearTerminal $#%#$
+delay 5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+instanttrace $#%#$
+disconnect $#%#$

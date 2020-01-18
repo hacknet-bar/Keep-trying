@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="After" activeCheck="true">
+  <goals>
+<goal type="delay" time="1000"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Coel</sender>
+    <subject>一片狼藉</subject>
+    <body>...Gas突如其来的攻击令我们措手不及。
+似乎我们的总部都被摧毁了，Err0r233尝试修复IRC和任务中心，但是IRC和任务中心遭到大幅度的损伤，已经用不了了。
+
+幸好Err0r233还有个服务器的备份。
+不然我们也不知道怎么样联系才好。
+另外，共享服务器我们算是修复好了。
+现在我们就差你一个了，赶紧回来啊。
+-Coel
+（作者提示：那两个问号的字是lang ji 由于hacknet字库太少= = 所以）
+
+</body>
+    <attachments>
+      <link comp="MissionDHS" />
+	  <link comp="MissionDrop" />
+	  <account comp="MissionDrop" user="admin" pass="Replite" />	  
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="WelcomeMission" activeCheck="true">
+  <goals>
+    <!-- Goals here -->
+  </goals>
+  <missionStart val="1">addRankSilent</missionStart>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Err0r233</sender>
+    <subject>欢迎回来</subject>
+    <body>你做到了！正如我所期待的一样。
+那么...也许我们应该回来在聚一聚了...
+希望你不要爽约！
+-Err0r233
+</body>
+    <attachments>
+	  <link comp="MissionHub" />
+	  <account comp="MissionHub" user="#PLAYERNAME#" pass="SES-RE-1010" />
+	  <link comp="MissionIRC" />
+	  <account comp="MissionDrop" user="admin" pass="Replite" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TenBaWifi" 
+          name="TenBa 员工WIFI" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="empty" > 
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="-1" />
+<adminPass pass="admin" />
+
+
+   
+     <dlink target="TenBaCEO" />
+
+	 
+</Computer>

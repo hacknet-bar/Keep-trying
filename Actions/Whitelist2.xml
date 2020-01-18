@@ -1,0 +1,28 @@
+<ConditionalActions>
+  
+   <OnAdminGained target="4Clock">
+    <AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="20.0">可恶，这里又有一个白名单</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="23.0">...真的是，无语了</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="23.4">我真的想锤爆ATK这个组织</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="23.8">嗯，赞同@Coel</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="25.0">那，再来一次吧，还是想上次那样</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="27.5">这次我需要@Alex来帮我查出白名单的IP</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="30.0">OK，我已经查到了</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="33.0">很好，准备开始瘫痪这个节点了</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="35.0">Coel你继续像之前一样</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="37.0">明白了</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="39.0">等我数到0，我就会瘫痪这个节点！</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="40.0">3</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="41.0">2</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="42.0">1</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="43.0">0</AddIRCMessage>
+	<CrashComputer TargetComp="ATKWhitelist4" CrashSource="MissionIRC" DelayHost="MissionIRC" Delay="43.1" />
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="43.1">Coel，快上！</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="44.0">稍等，很快就好</AddIRCMessage>
+	<DeleteFile TargetComp="ATKWhitelist4" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="MissionIRC" Delay="44.2"/>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="48.0">好了，你们应该能连上被这个白名单保护的服务器了</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="51.0">但愿是最后一次要我们崩溃节点</AddIRCMessage>
+  </OnAdminGained>
+
+
+</ConditionalActions>

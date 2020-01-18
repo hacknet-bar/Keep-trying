@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKWhitelist2"
+          name="ATK 白名单 验证器2"
+          security="5"
+          ip="99.244.106.117"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="6" />
+  <ports>554, 80, 21, 1433, 22, 6881</ports>
+  <portRemap>80=8090</portRemap>
+  <trace time="70" />
+  <firewall level="5" solution="SurpriseM" additionalTime="0.04"/>
+  <proxy time="3" />
+  
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  
+  <file path="Whitelist" name="list.txt">232.45.144.7</file>
+  
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Team"
+          name="Macrosoft 机密核心"
+          ip="198.147.55.7"
+          security="10"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="1" />
+  <ports>443</ports>
+  <trace time="1" />
+  <tracker /> 
+  <WhitelistAuthenticatorDaemon Remote="MacroWhitelist3" />
+  
+  <file path="home" name="FinalEnd.txt">核心项目编号#9999
+项目名称：FinalEnd-终焉
+项目特点：通过安装FinalEnd.dll插件使得用户的PC在一定程度上能够无懈可击！
+另外，在插件中加入ATK的BetaTester.dll代码能够打开用户的远程窗口
+这一用途能够在未来达到监察作用，也是无懈可击的！</file>
+参与研发者(组织)：Entech、ATK、D3f4ult、Kaguya、Yan
+研发进度：正在进行
+将在三台安全设备上投放安全项目的备份
+该备份会实时更新</Computer>

@@ -1,0 +1,36 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionDHS" needsMissionComplete="false">
+<AddConditionalActions Filepath="Actions/FinalAction2.xml" DelayHost="Cheater" Delay="60.0"/>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3.0">@Channel</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="5.0">各位，你们都下载完工具了吗</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="9.0">是的</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="11.0">那当然</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="15.0">全都下载好了，还有 多谢你的FTPSprint</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="18.0">=^=</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="21.0">那么...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="25.0">现在...</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="27.0">我们要将FinalEnd彻底击溃！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="30.0">准备好了吗@D3f4ult @Coel @#PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="32.0">要是我们四个人的话，肯定没问题的</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="33.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="37.1">==未知链接==</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="40.0">????????</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="MissionDHS" Delay="42.0">你们以为你们的计划是天衣无缝的吗？</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="MissionDHS" Delay="45.0">呵呵呵呵... 你们想的也太美好了吧</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="47.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="47.1">用户 "Coel" 被强制踢出服务器</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="48.2">可恶，Kaguya，你到底想干什么？</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="MissionDHS" Delay="50.0">干什么？当然是阻止你们...</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="MissionDHS" Delay="52.0">FinalEnd不能止步于此</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="55.0">你疯了 Kaguya...</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="58.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="58.1">用户 "D3f4ult" 被强制踢出服务器</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="MissionDHS" Delay="60.0">...还要来吗？</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="63.0">可恶...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="66.0">@#PLAYERNAME#，我来拖住Kaguya，你赶紧去删除最后一份FinalEnd！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="68.0">!ATTACHMENT:link#%#ATK 离线 缓存 08#%#49.68.177.2</AddIRCMessage>
+<LoadMission MissionName="Missions/DHSMission/StopMission2.xml"/>
+  </OnConnect>
+
+</ConditionalActions>

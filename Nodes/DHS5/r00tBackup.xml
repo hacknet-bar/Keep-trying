@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="r00tBackup" 
+          name="r00t 储存云" 
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" > 
+
+  <portsForCrack val="2" />
+  <ports>554, 22, 80, 32</ports>
+  <trace time="30" />
+
+  
+  
+  <file path="home" name="PointClicker.zip">#BINARY#</file>
+</Computer>
+
+  

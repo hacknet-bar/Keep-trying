@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MedicalWIFI" 
+          name="通用医疗-路由" 
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="chip" 
+          type="1" > 
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="30" />
+  <adminPass pass="admin" />
+  <WhitelistAuthenticatorDaemon Remote="MedWhitelist" />
+  
+  <file path="home" name="GuestReadme.txt">本路由器已开启Guest模式
+将会自动留下使用说明
+Guest模式与普通路由不同
+用户名将会改为Guest，密码是Guest_
+但是你同样的会拥有管理员权限
+也能扫描出连接上这部设备的PC</file>
+
+
+  <dlink target="DrYang" />
+  <dlink target="WIFIGuest" />
+</Computer>

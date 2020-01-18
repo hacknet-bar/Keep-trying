@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="popcorn" name="Popcorn个人电脑" type="empty" allowsDefaultBootModule="true" icon="DLCServer" security="6">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 80, 25, 6881, 554</ports>
+  <trace time="75" />
+
+  <file path="home" name="EndroidPreviewPt1.zip">#BINARY#</file>
+  <file path="home" name="EndroidPreviewPt2.zip">#BINARY#</file>
+  <file path="home" name="EndroidPreviewPt3.zip">#BINARY#</file>
+  <file path="home" name="EndroidPreview.dll">#BINARY#</file>
+  
+
+   
+
+</Computer>

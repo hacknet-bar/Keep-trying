@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroCache"
+          name="Macrosoft 缓存服务器"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="4" />
+  <ports>80, 22, 21, 6881</ports>
+  <trace time="50" />
+  
+  <file path="Cache" name="ActiveLog.tmp">#BINARYSMALL#</file>
+  <file path="Cache" name="MacroWall.tmp">#BINARYSMALL#</file>
+  <file path="Cache" name="Whitelist.tmp">#BINARY#</file>
+  <file path="Cache" name="CEO.png">#BINARY#</file>
+  <file path="Cache" name="Readme.md">核心技术编号#0018
+参与研发者：
+D3f4ult
+Kaguya
+Rudus
+项目名称：Decypher.exe
+项目介绍：为了研发出能使后缀为.dec的加密文件，高层人员Rudus带领着其他人开始研发解码软件
+并将其命名为Decypher.exe
+当前研发进度：已完成
+存放地点：Macrosoft核心产品中心</file>
+  <file path="Cache" name="CacknetInstaller.ins">#BINARY#</file>
+  
+  <dlink target="MacroMail" />
+</Computer>

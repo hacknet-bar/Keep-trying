@@ -1,0 +1,57 @@
+<ConditionalActions>
+  <Instantly>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="2">@#PLAYERNAME# @Coel 干得不错</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="4">呼，这可真不简单</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="7">是啊，要不是多亏了Coel你，我可能还会卡在那一步呢</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="10">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="12">用户 "D3f4ult" 进入了服务器</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="13">Sup.</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="16">我收到了Coel的邀请，于是我就来了</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="19">你不就是研发了Decypher.exe的那个人吗？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="22">是啊，你为啥跑来了这里</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="25">简而言之，Coel找到了我</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="28">让我加入了这个组织</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="30">她也向我讲述了你们所处的情况...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="33">所以... 你知道ATK的事情咯？</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="36">是的</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="38">而且我还知道 FinalEnd</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="39">...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="40">...</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="42">那么，你所带来的情报又有什么呢？@D3f4ult</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="45">你们应该已经知道FinalEnd是由ATK Macrosoft Entech联合研发的了吧</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="48">你们也应该看过交互中心的那份报告</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="50">EnSec Macrosoft_Firewall SecurityTracker</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="53">这三样是FinalEnd的主体</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="56">但是，你们又知道为什么要植入SecurityTracker吗？</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="60">....这个我倒是不知道</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="63">其实，SecurityTracker是为了针对你们而研发的</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="66">很久之前响彻网络界的SES，应该就是你们没错了...</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="70">击败了"CODE"的SES...</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="73">那个号称超强人工智能的 CODE</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="77">所以... CODE事件与我们有关联吗？</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="80">在那之后，ATK回收了CODE.并利用CODE的代码制作了那个软件</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="84">所以这就能解释为什么ATK会追踪你们</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="86">回归正题，你究竟带来了什么情报</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="88">就是说，如果FinalEnd流行起来的话</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="90">不仅所有的信息安全产业会破产</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="94">更重要的是</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="96">所 有 人 的 信 息 都 会 被 他 们 所 掌 控 在 手 中</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="100">...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="100.5">...</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="100.8">...</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="100.9">...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="100.9">...</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="105">所以...我们决不能让这种事情发生，对吧</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="108">是的，为了阻止FinalEnd的流行，我们必须将它扼杀</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="110">我建议分成两队行动...</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="113">A队，去寻找破解工具。以我们现在的工具肯定是不够的</AddIRCMessage>
+<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="115">B队，继续探索。找到他们存放FinalEnd测试版的储存服务器</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="117">同意。</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="120">@Coel @D3f4ult 你们俩去寻找破解工具</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="123">@Alex @Jex 你们去探索FinalEnd。</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="125">至于@#PLAYERNAME# 你有两个选择...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="127">去加入A队或者加入B队</AddIRCMessage>
+  <AddConditionalActions Filepath="DHS/DHSFinalA.xml" DelayHost="MissionDHS" Delay="125"/>
+    <AddConditionalActions Filepath="DHS/DHSFinalB.xml" DelayHost="MissionDHS" Delay="125"/>
+</Instantly>
+</ConditionalActions>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SlashBotBackup" name="Slash-Bot 备份" security="1" type="4">
+
+  <portsForCrack val="7" />
+  <ports>22, 21, 25, 80, 554, 1433, 6881</ports>
+  <trace time="85" />
+  <proxy time="2.5" />
+  <firewall level="7" additionalTime="1.0"/>
+  <admin type="basic" resetPassword="false" isSuper="false"/>
+  
+  <file path="close" name="Entropy 组织要转型为骇客了?">Entropy 组织要转型为骇客了?
+
+报道称, 组织"Entropy"收留了一个臭名昭著的骇客, 为他提供了工作. 我们不能确认这个消息的真实性. 如果消息属实, 那么Entropy组织将来会面临严峻的法律问题. 
+在我看来, 这样的举动会破坏现在的网络环境, 遏制那些黑客组织的发展. Entropy应受到谴责. 
+记者 :  Tom Wilkins</file>
+
+  <file path="close" name="Endroid 公司居然泄露了源码?">Endroid 公司居然泄露了源码?
+
+Endroid公司的最新源代码泄露，难道现在Endroid公司的安保措施已经为0了吗？亦或者说这是Endroid中的疏忽？
+依我看来，这不仅仅只是Endroid的失误，更是Endroid的一次教训，他们应该为自己的所作所为而反省。
+记者 :  Tom Wilkins</file>
+<file path="close" name="巨硬公司推出全新防火墙">巨硬公司推出全新防火墙
+
+据昨日（11月16日）截稿为止，巨硬公司在最近的新闻发布会上已经宣布了他们全新的防火墙。根据巨硬公司在发布会上说的极强安全性保护，我们不禁想到了EnSec。有了Ensec和巨硬的双重保护，我们的安全又多了一份保障。
+记者 :  Sally Joseph</file>
+
+<file path="close" name="Error">Error
+
+测试文本，切勿展示在新闻页面上！测试文本，切勿展示在新闻页面上！测试文本，切勿展示在新闻页面上！
+
+-SlashBot Auto Upload Robot</file>
+
+</Computer>

@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<OnConnect target="playerComp" needsMissionComplete="false">
+<LoadMission MissionName="Missions/After.xml" />
+<RunFunction FunctionName="removeFlags:CSEC_Member"/>
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="0.0" Method="grid" />
+</OnConnect>
+
+</ConditionalActions>

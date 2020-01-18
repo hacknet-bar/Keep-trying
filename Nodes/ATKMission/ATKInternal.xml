@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKInternal"
+          name="ATK 内部服务器"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="1" />
+  <ports>554</ports>
+  <trace time="15" />
+
+  
+  <file path="home" name="ATKRule.txt">ATK守则：
+1.只为大型组织办事
+2.办事效率要高
+3.不完成任务绝对不能放弃任务合同
+4.做事要勇敢，果断
+5.Gas新增：不要TM的总是把重要的东西都忘了</file>
+
+  <encryptedFile path="home" name="Repo.dec" extension=".txt" ip="192.168.1.1" header="Gas" pass="divedown" >CounterATK</encryptedFile>
+
+  <dlink target="ATKCore" />
+  <dlink target="ATKMail" />
+  <dlink target="ATKWhitelist1" />
+</Computer>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="KaguyaFinal" 
+          name="Kaguya 基地网关" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="8" />
+  <proxy time="3" />
+  <firewall level="8" solution="International" additionalTime="0.32"/>
+  <admin type="progress" resetPassword="false" isSuper="false"/> 
+  <ports>22, 25, 21, 80, 1433, 554, 104, 6881, 192</ports>
+  <portRemap>22=2998, 6881=1234, 80=8080</portRemap>
+  <trace time="130" />
+
+<file path="sys" name="FNEA.dll">#BINARY#</file>
+<file path="sys" name="FN.dll">#BINARY#</file>
+<file path="sys" name="GZGZ.dll">#BINARY#</file>
+</Computer>
+

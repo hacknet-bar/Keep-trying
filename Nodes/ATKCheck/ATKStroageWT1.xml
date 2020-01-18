@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKStroageWT1"
+          name="ATK-白名单 1"
+          ip="159.137.2.4"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="7" />
+  <ports>22, 21, 25, 80, 1433, 6881, 554</ports>
+  <trace time="80" />
+
+
+   
+  <WhitelistAuthenticatorDaemon Remote="ATKStroageWT" />
+
+  
+  <file path="Whitelist" name="list.txt">41.59.66.3</file>
+</Computer>

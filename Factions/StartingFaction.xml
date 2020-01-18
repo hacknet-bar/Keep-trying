@@ -1,0 +1,107 @@
+<CustomFaction name="Intro" id="Intro" playerVal="0">
+  
+  <Action ValueRequired="1">
+    <RunFunction FunctionName="setHubServer:MissionHub" FunctionValue="1" />
+	<RunFunction FunctionName="setAssetServer:MissionDrop" FunctionValue="1" />
+    <RunFunction FunctionName="playCustomSong:Music/Sunburst.ogg" />
+	<CancelScreenBleedEffect DelayHost="MissionIRC" Delay="0" />
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="6.5">相信我，只需要再等几秒钟他就回来</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="9.6">谁知道呢...没准他还卡在某个地方呢</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="12">Alert！</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="12.2">=======================</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="12.4">#PLAYERNAME#进入了IRC</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="12.6">=======================</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="15">看，他来了</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="18.5">@#PLAYERNAME#欢迎回来！</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="21">我来给你介绍一下新加入的成员——@Jex，出来打声招呼</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="24">雷猴啊，我是Jex！</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="27">悄悄跟你说@#PLAYERNAME#，Jex好像在共享服务器里面放了点东西</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="32">你可以看看</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="36">好了各位，闲聊到此结束，我们该开始工作了</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="39">好。</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="43">听你的老大</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="45">Yep.</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="48">很好</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="52">就让我们开始吧！</AddIRCMessage>
+  </Action>
+
+  <Action ValueRequired="31">
+  <RunFunction FunctionName="playCustomSong:Music/Water.ogg" />
+  <AddConditionalActions Filepath="Actions/Whitelist1.xml" DelayHost="MissionIRC" Delay="0.0"/>
+  <AddConditionalActions Filepath="Actions/Whitelist2.xml" DelayHost="MissionIRC" Delay="0.0"/>
+  </Action>
+  
+  <Action ValueRequired="41">
+  <AddConditionalActions Filepath="Actions/GasActions.xml" DelayHost="ATKIRC" Delay="5.0"/>
+  <RunFunction FunctionName="addFlags:DHS1,DHS2,DHS3"/>
+  </Action>
+  <Action ValueRequired="51">
+  <AddConditionalActions Filepath="DHS/DHS4.xml" DelayHost="MissionDHS" Delay="0"/>
+  </Action>
+  <Action ValueRequired="61">
+    <AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="1">嗨呀，我回来了</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3">Coel，你回来的刚刚好</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="6">我们现在的破译工作正到了关键一步</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="9">其实我们是希望你来帮我们一下</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="12">行，我等会就来</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="15">话说...最近Alex干嘛呢</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="19">我派他去执行一项秘密任务了awa</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="23">是一项什么样的任务呢？</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="26">@Coel，这是秘密啦</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="30">...</AddIRCMessage>
+  <RunFunction FunctionName="addFlags:DHS5,DHS6"/>
+    <AddConditionalActions Filepath="DHS/DHS5.xml" DelayHost="MissionDHS" Delay="0"/>
+	  <AddConditionalActions Filepath="DHS/DHS6.xml" DelayHost="MissionDHS" Delay="0"/>
+	    <RunFunction FunctionName="playCustomSong:Music/Field Of Hopes And Dreams.ogg" />
+	<AddAsset FileName="PointClicker.zip" FileContents="#BINARY#" TargetComp="MissionDrop" TargetFolderpath="home" Delay="31"/>
+  </Action>
+    <Action ValueRequired="71">
+  <AddConditionalActions Filepath="DHS/DHS7.xml" DelayHost="MissionDHS" Delay="0"/>
+    <AddConditionalActions Filepath="DHS/DHS7.xml" DelayHost="MissionDHS" Delay="0"/>
+  </Action>
+  <Action ValueRequired="81">
+    <AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="1">@Channel</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="3">我和@Jex已经取得了一些进展</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="6">根据我们手头上的信息，矛头已经指向了...</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="9">FinalEnd计划</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="12">？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="16">FinalEnd计划？根本就没听说过</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="20">...</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="23">FinalEnd...它应该是一项秘密计划，而且这个计划极其重要</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="26">而事实上，它正是一项大计划...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="30">就像是...Entech那种？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="34">我可是经历过Entech的风浪的人</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="38">@#PLAYERNAME# 没错</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="42">噗。。。</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="45">资料显示，它是一项安全软件</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionDHS" Delay="48">长话短说，它就像EnSec一样，能给予无与伦比的保护</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="52">天哪。。。</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="55">@#PLAYERNAME#你也应该知道EnSec如果流行起来的后果吧</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="58">如果它流行起来，所有的信息安全技术都会被垄断...</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="60">我们决不能让这种事情发生，不是么？</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="63">新玩具 @Channel</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="66">我已经把它上传到共享服务器了</AddIRCMessage>
+	<AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="MissionDrop" TargetFolderpath="bin" Delay="67"/>
+	<AddIRCMessage Author="Alex" TargetComp="MissionDHS" Delay="69">你们应该还知道SSL破解器怎么用的吧</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="MissionDHS" Delay="72">知道;\</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="76">@#PLAYERNAME# @Coel</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="80">交给你们一个任务</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="84">FinalEnd不可能只有ATK一个组织在策划的</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionDHS" Delay="90">找出可能与ATK有关系的组织，把你能找到的发给我</AddIRCMessage>
+	<RunFunction FunctionName="addFlags:DHS8"/>
+	<AddConditionalActions Filepath="DHS/DHS8.xml" DelayHost="MissionDHS" Delay="90"/>
+	<AddConditionalActions Filepath="Actions/CoelHelp.xml" DelayHost="MissionDHS" Delay="90"/>
+  </Action>
+  <Action ValueRequired="91">
+  <AddConditionalActions Filepath="Actions/D3f4ult.xml" DelayHost="MissionDHS" Delay="0"/>
+  <RunFunction FunctionName="addFlags:DHSFinalA"/>
+  <RunFunction FunctionName="addFlags:DHSFinalB"/>
+    <AddConditionalActions Filepath="Actions/D3f4ultHelp1.xml" DelayHost="MissionDHS" Delay="0"/>
+    <AddConditionalActions Filepath="Actions/D3f4ultHelp2.xml" DelayHost="MissionDHS" Delay="0"/>
+	<AddConditionalActions Filepath="Actions/AlexHelp1.xml" DelayHost="MissionDHS" Delay="0"/>
+  </Action>
+    <Action ValueRequired="101">
+  </Action>
+      <Action ValueRequired="102">
+  </Action>
+</CustomFaction>

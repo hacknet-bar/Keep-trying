@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NortronSolve" 
+          name="Nortron_Solve" 
+          security="4"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+  <portsForCrack val="5" />
+  <ports>21, 22, 80, 1433, 554</ports>
+  <trace time="70" />  
+  <proxy time="2" />
+  <firewall level="6" additionalTime="0.02"/>
+  <encryptedFile path="home" name="Solve.dec" extension=".txt" ip="192.168.1.1" header="Solve.txt">
+123456789bcd，没错 尽管听起来很弱智，但是这很有用
+  </encryptedFile>
+
+  <CustomConnectDisplayDaemon />
+
+
+</Computer>

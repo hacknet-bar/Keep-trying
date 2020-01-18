@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHS7" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+<goal type="clearfolder" target="Eleast" path="electric"/>
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHS7.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="电力切断" reqs="DHS7" >
+将电力公司的电力供应切断
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>电力切断</subject>
+    <body>收到一封匿名的邮件，我们得将东部的电网切除以完成他的委托。
+根据这封邮件指示，我们仅需切除东部的电力供应，并不需要切除其他方位的电力。
+祝好运
+
+-Err0r233</body>
+    <attachments>
+<note title="任务笔记">找到获得东部电力网的管理员权限，删除电力控制系统</note>
+	  <link comp="T.Dump" /> 
+    </attachments>
+  </email>
+</mission>

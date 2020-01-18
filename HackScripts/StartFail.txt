@@ -1,0 +1,18 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+hideRam $#%#$
+delay 2 $#%#$
+writel Error£¡ $#%#$
+delay 10 $#%#$
+writel System have been tracked£¡$#%#$
+delay 10 $#%#$
+writel Error£¡$#%#$
+delay 10 $#%#$
+delete /sys x-server.sys $#%#$
+writel x-server.sys missing£¡$#%#$
+delay 5 $#%#$
+writel DO NOT REBOOT MACHINE $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$

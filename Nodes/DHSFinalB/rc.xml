@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rc" name="rc PC" type="1" icon="DLCLaptop" ip="202.165.63.4">
+
+  <portsForCrack val="3" />
+  <ports>80, 22, 25, 21, 554, 1433</ports>
+  <portRemap>80=8080,22=225,1433=65451,21=32</portRemap>
+  <proxy time="5" />
+  <firewall level="7" additionalTime="0.5"/>
+  <trace time="75" />
+<file path="sys" name="Eos_SyncLog.dat">#BINARYSMALL#</file>
+
+  <eosDevice name="rc的EPhone 8" id="rcPhone" icon="ePhone2" empty="false" passOverride="alpine">
+
+    <mail username="rc@Entechmail.com" pass="Nopeitdoesntmatter" />
+
+  </eosDevice>
+</Computer>

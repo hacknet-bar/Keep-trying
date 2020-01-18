@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKMail" 
+name="ATK 邮箱服务器" 
+allowsDefaultBootModule="true"
+ip="79.68.96.185"
+security="3"
+type="1" > 
+
+  <adminPass pass="YOUCANTGETTHEADMINPASS" />
+  
+  <ports>80,22,21,25,1433</ports>
+  <portsForCrack val="99999998" />
+
+  <WhitelistAuthenticatorDaemon Remote="ATKWhitelist1" />
+  
+  <account username="Nut" password="11Nut11" type="2" />
+  
+  
+  <mailServer name="ATK邮箱" color="50,237,212" generateJunk="true">
+     
+	 <email recipient="Nut" sender="James Breaker" subject="密码更新">
+我就在原密码里加了个e，他们应该不会说什么
+     </email>
+	 
+	 <email recipient="Nut" sender="James Breaker" subject="上周会议">
+那些人真的是恐怖，不就是公布了一个密码吗，一堆喷子就在那BB
+    </email>
+	
+	  <email recipient="Nut" sender="ATK Admin" subject="本周例行钓鱼邮件预防">
+你好，Nut：
+您的ATK IRC密码已更改，若该操作不是您所进行的，请登录我们的密码修改服务器进行查询
+祝您有个美好的一天！
+- ATK Admin
+     </email>
+  </mailServer>  
+  
+</Computer>

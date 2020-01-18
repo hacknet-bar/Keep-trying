@@ -1,0 +1,30 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+hideRam $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+writel Alert! $#%#$
+delay 2 $#%#$
+writel ！！FinalEnd Emergency Attack！！$#%#$
+delay 2 $#%#$
+writel Sorry.$#%#$
+delay 2 $#%#$
+delete /sys x-server.sys $#%#$
+writel Y O U A R E C O N N E C T I N G$#%#$
+delay 2 $#%#$
+writel A S P E C I A L N O D E $#%#$
+delay 3 $#%#$
+writel It's time. . . . . . $#%#$
+delay 2 $#%#$
+writel Good Bye.$#%#$
+delay 3 $#%#$
+writel ！！Memory Overflow！！$#%#$
+delay 2 $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+showRam $#%#$
+forkbomb $#%#$
+delay 0.25 $#%#$
+writel ！FinalEnd Emergency Attack Completed！$#%#$
+disconnect $#%#$

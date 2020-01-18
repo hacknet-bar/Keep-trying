@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MissionIRC" 
+          name="SES 总部" 
+          ip="2.2.2.2"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="1" />
+  <ports>443</ports>
+  <trace time="10" />
+
+<IRCDaemon themeColor="53,44,228" name="SES IRC Channel" needsLogin="false">
+    <user name="Err0r233" color="19,248,253"/>
+    <user name="Alex" color="255,153,18"/>
+	<user name="Jex" color="0,255,0"/>
+	<user name="#PLAYERNAME#" color="92,92,92"/>
+	<user name="Yan" color="254,140,1"/>
+	<user name="Coel" color="255,0,0"/>
+	<user name="Vamper13" color="201,60,255"/>
+	
+    <post user="Alex">RTSP破解器总令人烦恼</post>
+    <post user="Jex">？</post>
+    <post user="Err0r233">？</post>
+	<post user="Alex">我是说，它尽管和Torrent有一样的破解速度</post>
+	<post user="Jex">或许？</post>
+	<post user="Err0r233">你只需要在破解完成的时候使用ps --> kill pid？</post>
+	<post user="Alex">...</post>
+	<post user="Alex">我居然忘了...</post>
+	<post user="Jex">噗呲，哈哈哈哈哈</post>
+	<post user="Err0r233">...</post>
+  </IRCDaemon>
+  
+  
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  
+</Computer>

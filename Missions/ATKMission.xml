@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ATKMission" activeCheck="true">
+  <goals>
+  <goal type="fileupload" target="ATKCore" file="IMPORTANTFILE.dec" path="home" destTarget="MissionDrop" destPath="upload/Uploads" />
+  </goals>
+  
+  <missionEnd>loadConditionalActions:Actions/MissionEnd.xml</missionEnd>
+  <missionEnd val="10">addRank</missionEnd>
+  
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/Hack.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Err0r233</sender>
+    <subject>ATK - 探查</subject>
+    <body>我在IRC里面已经说的很清楚了，我们需要查出为什么ATK要追踪我们
+我们仅仅只是探查，不要做的过火，Coel和jex刚刚探查到了ATK组织的一个节点
+我想，我们可以从那里入手...
+-Err0r233</body>
+    <attachments>
+	  <link comp="ATKLAX" />
+    </attachments>
+  </email>
+</mission>

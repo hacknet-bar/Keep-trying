@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKWIFI"
+          name="ATK 路由器"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" >
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="60" />
+  <adminPass pass="admin" /> 
+  <WhitelistAuthenticatorDaemon Remote="ATKWhitelist1" />
+
+  <dlink target="Lucas" />
+  <dlink target="Gas" />
+  <dlink target="James" />
+  <dlink target="Nut" />
+</Computer>

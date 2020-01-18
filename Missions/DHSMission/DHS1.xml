@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHS1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	<goal type="clearfolder" target="Andrew" path="home"/>
+	<goal type="clearfolder" target="vaper" path="home"/>
+	<goal type="clearfolder" target="popcorn" path="home"/>
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHS1.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="清除一切" reqs="DHS1" >
+有人要求我们清除关于一个产品的一切
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>清除一切</subject>
+    <body>#PLAYERNAME#，你应该听说过Endroid这个产品的吧...
+Endroid的人找上了门来，请求我们帮他删除一些他们工作人员泄露出去的最新产品。
+我觉得这种小任务不可能难得倒你的，另外，Endroid工作人员也罢任务目标贴在附件上了。
+祝你好运！
+
+-Err0r233</body>
+    <attachments>
+<note title="任务细节">一共有3个人得到了我们泄露的产品。
+找到他们，并删除一切关于Endroid的东西。
+我们的产品的名字都是EndroidPreview.zip或者是Endroidxxxx.dll，一般都会在home文件夹发现的</note>	
+	  <link comp="vaper" /> 
+    </attachments>
+  </email>
+</mission>

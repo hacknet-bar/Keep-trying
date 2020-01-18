@@ -1,0 +1,23 @@
+<ConditionalActions>
+  
+<Instantly>
+<CancelScreenBleedEffect DelayHost="Cheater" Delay="0.0"/>
+<KillExe DelayHost="Cheater" Delay="0.0" ExeName="*"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<CrashComputer TargetComp="ATKFinal" CrashSource="Cheater" DelayHost="Cheater" Delay="0.0" />
+
+
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="1.0">!ANNOUNCEMENT! @channel</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="MissionDHS" Delay="3.0">用户 "Err0r233" 被强制踢出服务器</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="MissionDHS" Delay="5.0">结束了.....</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="MissionDHS" Delay="7.0">我都说你们是不可能阻止FinalEnd的...</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="9.0">（可恶...难道就只能这么结束了吗？）</AddIRCMessage>
+<AddIRCMessage Author="Kaguya" TargetComp="MissionDHS" Delay="11.0">（我让你们失望了.... Err0r233 Coel D3f4ult Alex Jex）</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionDHS" Delay="15.0">（结束了.....）</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="MissionDHS" Delay="16.0">Bad End 达成</AddIRCMessage>
+<AddIRCMessage Author="System" TargetComp="MissionDHS" Delay="19.0">无法解锁Thesjy支线</AddIRCMessage>
+<HideNode DelayHost="Cheater" Delay="0.0" TargetComp="MissionDrop" />
+</Instantly>
+
+</ConditionalActions>
+ 

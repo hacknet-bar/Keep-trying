@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+   <Instantly>
+   <StartScreenBleedEffect AlertTitle="SECURITY FIGHT" CompleteAction="Actions/HackFail.xml" TotalDurationSeconds="720" DelayHost="MissionIRC" Delay="15">找到SecurityTracker.dll
+删除
+系统会在12分钟后重启</StartScreenBleedEffect>
+  </Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Yusa" name="Yusa的个人PC" type="1" >
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="-1" />
+  <adminPass pass="DAEDALUS" /> 
+<file path="home" name="Prj_Pac.txt">项目编号：#16384
+项目名称：PacificPortCrusher.exe
+项目存放位置：99.72.151.8</file>
+
+  <WhitelistAuthenticatorDaemon Remote="PacWT2" />
+
+  
+</Computer>

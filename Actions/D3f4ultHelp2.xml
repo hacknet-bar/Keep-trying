@@ -1,0 +1,13 @@
+<ConditionalActions>
+  
+   <OnAdminGained target="PacPrj" >
+    <AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="12.0">@Channel</AddIRCMessage>
+	<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="15.0">我们找到了一份类似于密码的文本</AddIRCMessage>
+	<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="18.0">但是我们并不能在我们这边找到他的用途</AddIRCMessage>
+	<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="20.0">@#PLAYERNAME#，我想你这里应该有用途</AddIRCMessage>
+	<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="22.0">那份文本的名字是PPCP.txt</AddIRCMessage>
+	<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="25.0">内容是Impossible</AddIRCMessage>
+	<AddIRCMessage Author="D3f4ult" TargetComp="MissionDHS" Delay="28.0">一切就要靠你了，#PLAYERNAME#</AddIRCMessage>
+  </OnAdminGained>
+
+</ConditionalActions>

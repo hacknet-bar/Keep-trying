@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="zeus" name="Entech 宙斯" type="1" >
+
+  <portsForCrack val="99999998" />
+  <ports>80, 22, 25, 21, 80, 554, 1433</ports>
+  <portRemap>80=8080,22=225,1433=65451,21=32</portRemap>
+  <proxy time="2.5" />
+  <trace time="85" />
+<adminPass pass="d881994Ax" />
+
+<file path="home" name="FinalEnd.txt">192.156.81.9</file>
+</Computer>

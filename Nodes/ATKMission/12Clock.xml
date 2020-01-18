@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="12Clock"
+          name="12 o'Clock"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" >
+
+  <portsForCrack val="6" />
+  <ports>22, 80, 21, 1433, 6881, 554</ports>
+  <trace time="70" />
+
+  <WhitelistAuthenticatorDaemon Remote="ATKWhitelist4" />
+	
+  <file path="home" name="CORE.docx">#BINARY#</file>
+  <file path="home" name="COREPassword.txt">所有能破除的Clock中文本之和</file>
+  <file path="home" name="COREFinal.txt">线条即为密码部分
+---   - -   - -   - -   - -   - -
+---   - -   ---   - -   ---   ---
+- -   ---   - -   ---   - -   - -</file>
+  <file path="home" name="tips.txt">看看这些线条像什么？</file>
+  <file path="home" name="tips2.txt">八卦  二进制  十进制...</file>
+  
+  <dlink target="ATKWhitelist3" />
+</Computer>

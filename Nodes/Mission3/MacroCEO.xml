@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroCEO"
+          name="Gill Bates的笔记本"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="Laptop"
+          type="1" >
+
+  <portsForCrack val="2" />
+  <ports>9418, 3724, 80, 21</ports>
+  <trace time="55" />
+  <firewall level="5" solution="macrosoftCEO" additionalTime="0.02"/>
+  
+  <file path="sys" name="eos_SyncLog.dat">#BINARYSMALL#</file>
+  
+  <eosDevice name="Gill Bates的Ephone XS MAX" id="Gill Bates Phone" icon="ePhone1" empty="true" passOverride="alpine">
+    <note>本月计划
+尽快将macrosoft防火墙普及至全macrosoft
+每月一次的例行更改wifi密码</note>
+    <note>路由器密码
+路由器密码将会更新为 “夏至” + “冬至” = ?</note>
+    <note>白名单
+密码为具有 “先见之明” 的神的称呼 字母全部大写 某希腊神话里的就是了</note>
+    <mail username="GillBates@MacrosoftMail.com" pass="macrosoftCEO" />
+  </eosDevice>
+  
+  
+</Computer>

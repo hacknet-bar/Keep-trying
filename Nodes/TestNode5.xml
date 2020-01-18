@@ -1,0 +1,53 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="testNode5" 
+          name="ATK-总部" 
+          ip="88.166.238.7"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+
+  <portsForCrack val="10" />
+  <ports>443, 22, 80</ports>
+  <portRemap>22=192</portRemap>
+  <trace time="30" />
+  <admin type="fast"/>
+  <adminPass pass="ATK-IRC-Admin-2088" />
+  <WhitelistAuthenticatorDaemon Remote="testNode4" />
+  
+ <account username="JamesBreaker" password="anendlessroute" type="0" />
+  
+  <IRCDaemon themeColor="67,204,148" name="ATK IRC Channel" needsLogin="true">
+    <user name="JamesBreaker" color="0,209,232"/>
+    <user name="Gas" color="202,98,0"/>
+    <user name="Nut_Natty" color="0,196,82"/>
+
+    <post user="Gas">嘿，各位...我想现在应该人都齐了吧</post>
+    <post user="Nut_Natty">想多了，James那傻子还没来呢</post>
+    <post user="Gas">MMP，他八成又忘记他的账号密码了</post>
+    <post user="Gas">稍等，我去看看他最近溜达过的地方</post>
+    <post user="Nut_Natty">LOLOLOLOLOL</post>
+    <post user="Gas">O的K，James应该能进来了</post>
+    <post user="JamesBreaker">我终于进来了</post>
+    <post user="Nut_Natty">优秀</post>
+    <post user="Gas">还记得你上次怎么说的吗？</post>
+    <post user="Gas">"如果我再次忘记账号密码，我当众女装"</post>
+    <post user="Gas">所以你应该要怎么表现？</post>
+    <post user="Nut_Natty">LOL，请务必告诉我你的直播时间，我会第一个进入你的直播间 @JamesBreaker</post>
+    <post user="JamesBreaker">嘿...大佬我知道错了...</post>
+    <post user="JamesBreaker">能告诉我3号监视器的IP吗，我把他忘了QAQ</post>
+    <post user="Gas">...</post>
+    <post user="Gas">你咋啥都能忘 98.144.72.215</post>
+    <post user="Nut_Natty">对了@Gas，我想知道你之前说的Clock.dec到底是什么？</post>
+    <post user="Gas">哦，那个啊</post>
+    <post user="Gas">那个dec文件的密码同时我投放的一个设备的密码</post>
+    <post user="Gas">密码是之前邮件说到的最终幻想10最受欢迎女主角</post>
+	<post user="Nut_Natty">多谢啦@Gas,XDDDDD</post>
+  </IRCDaemon>
+
+
+   <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+   
+   <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  
+</Computer>

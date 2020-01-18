@@ -1,0 +1,39 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <RunFunction FunctionName="addRank" FunctionValue="10" />
+    <AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="3.0">各位，我回来了</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="5.0">另外，我要给大家上演一出好戏啦！</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="8.0">？</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="11.0">稍等...很快就好...</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="18.0">Alert！</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="18.2">==================</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="18.4">Vamper13进入了IRC</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="18.6">==================</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="20.0">!</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="22.0">@Alex你在干嘛？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="22.0">他说要给我们搞个大惊喜</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="24.0">...</AddIRCMessage>
+	<AddIRCMessage Author="Vamper13" TargetComp="MissionIRC" Delay="28.0">我是谁？我在哪？我要干啥？</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="31.0">别担心，小伙计</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="35.0">我给你的电脑上传了FTPSprint.exe！</AddIRCMessage>
+	<AddIRCMessage Author="Vamper13" TargetComp="MissionIRC" Delay="40.0">...</AddIRCMessage>
+	<AddIRCMessage Author="Vamper13" TargetComp="MissionIRC" Delay="43.0">我不相信...</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="50.0">真的真的，不信看看bin文件夹</AddIRCMessage>
+	<AddIRCMessage Author="Vamper13" TargetComp="MissionIRC" Delay="55.0">卧槽，dalao，牛逼！</AddIRCMessage>
+	<AddIRCMessage Author="Vamper13" TargetComp="MissionIRC" Delay="59.0">为什么我的电脑....在不断地闪？？？</AddIRCMessage>
+	<AddIRCMessage Author="Vamper13" TargetComp="MissionIRC" Delay="61.0">？？？为什么我的鼠标在不停地动？</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="68.0">小老弟，怎么回事？你之前黑我的时候不是很开心吗</AddIRCMessage>
+	<AddIRCMessage Author="Vamper13" TargetComp="MissionIRC" Delay="72.0">...大佬，放过我吧，我再也不敢了...</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="76.0">行，这是你最后一次机会，没有下次！</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="79.0">永别了，小老弟</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="80.0">==================</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="80.2">Vamper13被封禁</AddIRCMessage>
+	<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="80.4">==================</AddIRCMessage>
+	<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="83">666</AddIRCMessage>
+	<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="84.5">666</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="85.5">666</AddIRCMessage>
+	<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="88">XD</AddIRCMessage>
+  </Instantly>
+
+</ConditionalActions>

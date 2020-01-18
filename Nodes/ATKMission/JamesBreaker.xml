@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="James"
+          name="James 个人PC"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1" >
+
+  <portsForCrack val="102400" />
+  <ports>9418, 3724, 3659</ports>
+  <trace time="-1" />
+  <adminPass pass="James1130e" /> 
+  
+  <file path="home" name="Whitelist2.txt">99.244.106.117</file>
+  <file path="bin" name="encrypt_pwd.txt">divedown</file>
+  
+</Computer>

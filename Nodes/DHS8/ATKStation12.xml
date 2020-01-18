@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Station12" name="ATK 工作站 12" type="1">
+
+  <portsForCrack val="2" />
+  <ports>1433</ports>
+  <trace time="22" />
+
+   
+
+  
+</Computer>

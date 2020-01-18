@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NortronProject" 
+          name="Nortron 储存服务器" 
+          security="9"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+  <portsForCrack val="6" />
+  <ports>21, 22, 80, 443, 554, 6881, 1433</ports>
+  <trace time="75" />
+  
+  <WhitelistAuthenticatorDaemon Remote="NortronWT" />
+  
+    <tracker />
+	
+<file path="Project" name="FinalSupport.docx">#BINARY#</file>
+
+  
+</Computer>

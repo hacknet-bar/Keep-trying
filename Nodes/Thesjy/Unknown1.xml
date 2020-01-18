@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Unknown1" 
+          name="Unknown1" 
+          ip="83.15.244.7"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" > 
+
+  <portsForCrack val="7" />
+  <ports>443, 22, 6881, 554, 21, 104, 1433</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <trace time="82" />
+
+<file path="home" name="chat1.txt">|Kaguya| : 嘿，我想这个计划不能再进行下去了
+|Gas| : 不Kaguya，如果我们想让FinalEnd卷土重来，这是唯一的方法
+|Kaguya| : 好吧，我会坚持到底的
+|Gas| : 多谢你一直以来的支持 K
+
+|Gas| : 完美！
+|Kaguya| : 手机部署完成，密码是“我”</file>
+
+<encryptedFile path="home" name="chat2.dec" extension=".txt" ip="54.45.98.89" header="Unknown..." pass="DrivingMeMad">|Kaguya| : = = Gas，你想干什么呢
+|Gas| : 没什么，只是在加密一些文本
+|Gas| : 如果放在那里实在是有点太危险了
+
+|Gas| : 加密完成！ 通用国密
+|Kaguya| : ...确定不会被认定为弱智吗？
+|Gas| : 俗话说得好 最危险的地方就是最安全的地方
+|Kaguya| : ...
+</encryptedFile>
+ <dlink target="Unknown2" /> 
+<dlink target="Unknown3" />
+<dlink target="Unknown4" /> 
+
+<file path="sys" name="MemScanData.dat">#BINARY#</file>
+
+     <Memory>
+    <Commands>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+      <Command></Command>
+    </Commands>
+    <Data>
+      <Block>这是作者的恶意</Block>
+      <Block>
+      </Block>
+    </Data>
+    <Images>
+      <Image>Image/Task2.png</Image>
+    </Images>
+  </Memory>
+</Computer>
+</Computer>

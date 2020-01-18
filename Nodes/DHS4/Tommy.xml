@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Tommy" 
+          name="S. Tommy的个人电脑" 
+          security="4"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+  <portsForCrack val="5" />
+  <ports>22, 80, 21, 554, 6881</ports>
+  <trace time="70" />
+
+
+<dlink target="academic" />
+	 
+</Computer>

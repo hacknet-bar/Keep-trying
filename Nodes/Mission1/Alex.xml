@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Alex"
+          name="Alex 作战基地"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="DLCPC2"
+          type="1" >
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 6881</ports>
+  <trace time="55" />
+  <adminPass pass="Al121ex" /> 
+  <proxy time="1.5" />
+  <firewall level="5" solution="np54ab71" additionalTime="0.05"/>
+  
+   <dlink target="AlexWIFI" />
+  
+  <file path="home" name="WiFi.txt">关于WIFI
+可以在某些PC内扫描出WIFI节点，在WIFI节点里面一定会扫出其他人的电脑
+只要他连上了这台路由器！
+WIFI节点通常是无法破解的
+但是它有一个致命的缺陷
+有些人会忘记更改默认密码XD
+WIFI的默认账号与密码都是admin
+我更改了我的WIFI密码
+为了不忘记，我特意写在这，密码为：Mol1040
+-Alex</file>
+
+  <file path="bin" name="FtpSprint.wnf">10101010010101010101010111110101001011001101010100101111110110</file>
+  <file path="bin" name="SSHCrack.wnf">10101010010101010101010111110101001011001101010100101111110110</file>
+  <file path="bin" name="FtpSprint.wnf">10101010010101010101010111110101001011001101010100101111110110</file>
+  <file path="bin" name="WebServerworm.wnf">10101010010101010101010111110101001011001101010100101111110110</file>
+  
+  <file path="WannaFly" name="WannaFly.exe">10101010010101010101010111110101001011001101010100101111110110</file>
+  <file path="WannaFly" name="Lockdown.dll">10101010010101010101010111110101001011001101010100101111110110</file>
+  <file path="WannaFly" name="DitPayment.dll">10101010010101010101010111110101001011001101010100101111110110</file>
+  <file path="WannaFly" name="icon.png">10101010101001101010101010010101010010101010010101110101001010101001101010010101010110101101010101011010100101010101011010100101101010010101011010100101011010100101010100101011010101001010110010101101010010101001010110101110101101010010101010</file>
+  <file path="WannaFly" name="WannaFlyBackUP.bat">10101010010101010101010111110101001011001101010100101111110110</file>  
+  <file path="WannaFly" name="End.dll">10101010010101010101010111110101001011001101010100101111110110</file>
+</Computer>
+

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="ATKCheck" activeCheck="true">
+
+<goals>
+<goal type="fileupload" target="MissionDrop" file="Tracking.dec" path="stroage" destTarget="MissionDrop" destPath="upload/Uploads"/>
+<goal type="delay" time="2.0"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Next.xml</missionEnd>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>kang_zi</sender>
+<subject>????</subject>
+<body>我想这是个致命的bug...好尴尬啊...</body>
+<attachments>
+</attachments>
+</email>
+</mission>

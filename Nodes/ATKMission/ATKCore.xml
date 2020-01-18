@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ATKCore"
+          name="ATK 核心"
+          security="10"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="9999998" />
+  <ports>22, 21, 80, 554, 6881, 1433</ports>
+  <trace time="60" />
+  <adminPass pass="CORE9086201810" /> 
+  <proxy time="30" />
+  <firewall level="99" solution="macrosoft-firewallservice-0018" additionalTime="99"/> 
+  <portRemap>web=8080,22=9999,6881=10451</portRemap>
+ 
+ <FastActionHost/>
+
+  <WhitelistAuthenticatorDaemon Remote="ATKWhitelist3" />
+  
+  <file path="home" name="activeLog.tmp">#BINARY#</file>
+
+  <encryptedFile path="home" name="IMPORTANTFILE.dec" extension=".txt" ip="192.168.1.1" header="Yan" pass="FinalEndexewillbereleased">那三个人...
+不，准确的说是四个，会极大的影响我们的计划
+监视并追踪他们
+将他们的行动牢牢掌控
+FinalEnd不能败在他们的手上</encryptedFile>
+
+</Computer>

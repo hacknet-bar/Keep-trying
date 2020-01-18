@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacrosoftCosume"
+          name="Macrosoft 售后服务"
+          ip="16.38.77.101"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCPC2"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>80, 22, 554, 6881, 21</ports>
+  <portRemap>21=9999</portRemap>
+  <trace time="45" />
+  <adminPass pass="Cosume" /> 
+  <firewall level="5" solution="macros0ft" additionalTime="0.02"/>
+  <admin type="progess"/>
+
+  <messageBoard name="Macrosoft 售后服务">
+    <thread>Docs/MacrosoftThreads/Thread1.txt</thread>
+    <thread>Docs/MacrosoftThreads/Thread2.txt</thread>
+    <thread>Docs/MacrosoftThreads/Thread3.txt</thread>
+  </messageBoard>
+ 
+
+ 
+  <dlink target="MacroFirewall" />
+  <dlink target="MacroCore" />
+</Computer>

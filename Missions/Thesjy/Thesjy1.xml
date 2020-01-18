@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<mission id="Thesjy1" activeCheck="true">
+
+<goals>
+<goal type="getadmin" target="Thesjy1"/>
+</goals>
+
+  <missionEnd>loadConditionalActions:Actions/Join.xml</missionEnd>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>kang_zi</sender>
+<subject>ERROR</subject>
+<body>你看到这个的话...BUG又出现了...</body>
+<attachments>
+</attachments>
+</email>
+</mission>

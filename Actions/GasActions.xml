@@ -1,0 +1,86 @@
+<ConditionalActions>
+  
+<OnConnect target="MissionIRC" needsMissionComplete="false">
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<RunFunction FunctionName="addFlags:CSEC_Member"/>
+
+<LaunchHackScript Filepath="HackScripts/ATKhack.txt" 
+                  DelayHost="Cheater" 
+                  Delay="35" SourceComp="ATKIRC" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+<AddConditionalActions Filepath="Actions/AfterGas.xml" DelayHost="Cheater" Delay="100"/>				  
+<AddConditionalActions Filepath="Actions/InGas.xml" DelayHost="Cheater" Delay="0"/>
+		  
+
+		  
+  		<SetLock DelayHost="Cheater" Delay="30.0" Module="terminal" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="30.1" Module="display" IsLocked="true" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="30.1" Module="ram" IsLocked="true" IsHidden="false" />
+
+<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="3.0">各位，干得不错，接下来就交给@Jex解决吧</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="6.0">保证完成任务</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="9.0">那么，我们接下来该做什么呢</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="14.0">或许可以休息一下？</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="15.0">是这样的话就太赞了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="16.0">抱歉，@Coel @Alex，让你们失望了</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="20.0">我们还不能停下</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="23.0">我们必须要搞清楚，ATK在搞些什么</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="26.0">...</AddIRCMessage>
+<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="30.0">Alert！</AddIRCMessage>
+<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="30.2">==================</AddIRCMessage>
+<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="30.4">@Gas进入了IRC</AddIRCMessage>
+<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="30.6">==================</AddIRCMessage>
+<AddIRCMessage Author="Gas" TargetComp="MissionIRC" Delay="35.0">嗨，你们好啊</AddIRCMessage>
+<AddIRCMessage Author="Gas" TargetComp="MissionIRC" Delay="38.0">你们似乎拿了我们的一些东西呢</AddIRCMessage>
+<AddIRCMessage Author="Gas" TargetComp="MissionIRC" Delay="40.0">再见</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="MissionIRC" Delay="42.5">WTF...</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="MissionIRC" Delay="45">我去，他在干嘛？</AddIRCMessage>
+<AddIRCMessage Author="Alex" TargetComp="MissionIRC" Delay="46">靠！</AddIRCMessage>
+<AddIRCMessage Author="Coel" TargetComp="MissionIRC" Delay="42.5">他干了什么？</AddIRCMessage>
+<AddIRCMessage Author="Jex" TargetComp="MissionIRC" Delay="42.5">啊啊啊</AddIRCMessage>
+<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="42.6">===========================</AddIRCMessage>
+<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="42.8">ERROR！IRC核心文件缺失</AddIRCMessage>
+<AddIRCMessage Author="Cortana" TargetComp="MissionIRC" Delay="43.0">===========================</AddIRCMessage>
+<StartScreenBleedEffect AlertTitle="Overload" CompleteAction="Actions/StartingActions.xml" TotalDurationSeconds="13.3" DelayHost="ATKIRC" Delay="38">ERROR
+01100011
+01101011</StartScreenBleedEffect>
+
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="41" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="42" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="43" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="43.8" Method="scatter" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="44.5" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="44.6" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="44.7" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="44.9" Method="scatter" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45.1" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45.2" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45.3" Method="scatter" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45.4" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45.5" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45.6" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45.7" Method="scatter" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45.8" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="45.9" Method="seqgrid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="46.0" Method="CHAOS" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="46.1" Method="scatter" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="46.2" Method="grid" />
+<ChangeNetmapSortMethod DelayHost="MissionIRC" Delay="46.3" Method="CHAOS" />
+
+
+<HideNode DelayHost="Cheater" Delay="48" TargetComp="MissionHub" />
+<HideNode DelayHost="Cheater" Delay="48" TargetComp="MissionDrop" />
+<HideNode DelayHost="Cheater" Delay="48" TargetComp="MissionIRC" />
+<CrashComputer TargetComp="MissionHub" CrashSource="Cheater" DelayHost="ATKIRC" Delay="50" />
+<CrashComputer TargetComp="MissionDrop" CrashSource="Cheater" DelayHost="ATKIRC" Delay="50" />
+<CrashComputer TargetComp="MissionIRC" CrashSource="Cheater" DelayHost="ATKIRC" Delay="50" />
+<ChangeIP DelayHost="Cheater" Delay="52" TargetComp="MissionIRC" NewIP="159.169.179.122" />
+<ChangeIP DelayHost="Cheater" Delay="52" TargetComp="MissionHub" NewIP="159.169.179.123" />
+<ChangeIP DelayHost="Cheater" Delay="52" TargetComp="MissionDrop" NewIP="159.169.179.124" />
+
+  		<SetLock DelayHost="Cheater" Delay="50.0" Module="terminal" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="50.1" Module="display" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="50.1" Module="ram" IsLocked="false" IsHidden="false" />
+</OnConnect>
+</ConditionalActions>

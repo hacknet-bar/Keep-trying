@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MedWhitelist" 
+          name="通用医疗 认证服务器" 
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+
+  <portsForCrack val="2" />
+  <ports>554, 22, 80, 1433, 443</ports>
+  <portRemap>22=192</portRemap>
+  <trace time="45" />
+  <firewall level="4" solution="absoulte" additionalTime="2.0"/>
+  <adminPass pass="sB" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+  
+
+  <file path="Whitelist" name="list.txt">23.59.28.6</file>
+</Computer>

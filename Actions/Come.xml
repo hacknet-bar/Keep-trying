@@ -1,0 +1,30 @@
+<ConditionalActions>
+  
+<OnConnect target="SecretIRC" needsMissionComplete="false">
+<RunFunction FunctionName="playCustomSong:Music/Fade.ogg"/>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="1.0">@#PLAYERNAME# 干的不错，我就知道你能做到</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="3.0">我来给你介绍下这里的成员</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="5.0">@Thesjy @Maoyu 和我</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="8.0">尽管Maoyu在这是个新人，但他展现出了强大的实力</AddIRCMessage>
+<AddIRCMessage Author="Maoyu" TargetComp="SecretIRC" Delay="11.0">嘿嘿</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="13.0">好了，那么#PLAYERNAME#，我们来说一下为什么要设置这个解谜</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="15.0">FinalEnd已经不复存在</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="19.0">但是Gas和Kaguya还在试图恢复FinalEnd</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="21.0">所以Err0r233和我决定</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="23.0">成立这个组织</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="26.0">阻止FinalEnd的卷土重来</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="29.0">好了@Channel.</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="32.0">你们的任务只有一个，那就是</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="SecretIRC" Delay="35.0">找到Kaguya和Gas的网关ip对吧</AddIRCMessage>
+<AddIRCMessage Author="Maoyu" TargetComp="SecretIRC" Delay="36.5">或者是他们进行通讯的地方</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="37.0">....</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="39.0">你怎么知道的</AddIRCMessage>
+<AddIRCMessage Author="Maoyu" TargetComp="SecretIRC" Delay="41.0">按剧情发展的顺序八成都是这个吧喂！</AddIRCMessage>
+<AddIRCMessage Author="Err0r233" TargetComp="SecretIRC" Delay="42.0">咳咳</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="45.0">这是IP（多亏Maoyu）：</AddIRCMessage>
+<AddIRCMessage Author="Thesjy" TargetComp="SecretIRC" Delay="46.0">!ATTACHMENT:link#%#Unknown1#%#83.15.244.7</AddIRCMessage>
+<AddConditionalActions Filepath="Actions/GasConnect.xml" DelayHost="Cheater" Delay="0.0"/>
+
+</OnConnect>
+
+</ConditionalActions>

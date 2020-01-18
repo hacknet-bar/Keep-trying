@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Lisa" name="Lisa的家庭电脑" type="1" >
+
+  <portsForCrack val="5" />
+  <ports>80, 25, 22, 21, 443</ports>
+  <trace time="-1" />
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+
+  
+</Computer>

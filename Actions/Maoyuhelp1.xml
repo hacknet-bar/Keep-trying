@@ -1,0 +1,15 @@
+<ConditionalActions>
+  
+<OnConnect target="playerComp" needsMissionComplete="false">
+<RunFunction FunctionName="addFlags:FinalCrack"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Silent.ogg"/>
+<LaunchHackScript Filepath="HackScripts/MaoyuHelp.txt" 
+                  DelayHost="Cheater" 
+                  Delay="1" SourceComp="ATKIRC" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<AddConditionalActions Filepath="Actions/Maoyuhelp2.xml" DelayHost="Cheater" Delay="0.0"/>
+  		<SetLock DelayHost="Cheater" Delay="0.0" Module="terminal" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="display" IsLocked="false" IsHidden="false" />
+		<SetLock DelayHost="Cheater" Delay="0.1" Module="ram" IsLocked="false" IsHidden="false" />
+</OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSFinalA" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+    <goal type="fileupload" target="PacPrj" file="PacificPortCrusher.exe" path="bin" destTarget="MissionDrop" destPath="upload/Uploads" />
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHSFinalA.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="ATK - 阻止 A" reqs="DHSFinalA" >
+找到破解工具
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>ATK - 阻止 A</subject>
+    <body>...详细情况不应该我说明了吧，你们的任务就是将PacificPortCrusher.exe拿到手。
+我已经定位到一个太平洋航空的内部服务器了，这样子将会节省你们很多时间。
+
+-Err0r233</body>
+    <attachments>
+<note title="任务笔记">找到PacificPortCrusher.exe 上传</note>
+	  <link comp="PacInternal" /> 
+    </attachments>
+  </email>
+</mission>

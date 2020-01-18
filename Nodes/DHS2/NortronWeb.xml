@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Nortron"
+          name="Nortron 网页服务器"
+          security="8"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="6" />
+  <ports>22, 21, 80, 25, 554, 6881</ports>
+  <portRemap>80=8080</portRemap>
+  <admin type="progess" resetPassword="false"/>
+  <trace time="75" />
+  <proxy time="3" />
+  <firewall level="6" solution="Nortron" additionalTime="0.08"/>
+  
+    <addWebServer name="Nortron Securtiy Service"
+                url="web\Presets\Nortron/NortronPublicPage.html" />
+  
+
+
+  <dlink target="NortronSolve" />
+  <dlink target="NortronInternal" />
+
+</Computer>

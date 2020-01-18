@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Station8" name="ATK 工作站 08" type="1">
+
+  <portsForCrack val="6" />
+  <ports>1433, 554, 443, 21, 22, 80</ports>
+  <trace time="75" />
+  <firewall level="6" solution="Station" additionalTime="1.5"/>
+
+<dlink target="ATKPass" />
+<dlink target="ATKWT" />
+  
+<file path="home" name="FinalEndProject.txt">F I N A L E N D.</file>
+</Computer>

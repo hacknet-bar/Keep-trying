@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Mission3">
+  <goals>
+	<goal type="getstring" target="difficult" />
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/Mission2End.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/Mission3End.xml</missionEnd>
+  
+  <nextMission>Missions/Mission3fail.xml</nextMission>
+   <posting title="寻找解码软件" requiredRank="21" >
+我们需要拿到加密文件的解码器
+  </posting>
+    <email>
+    <sender>Err0r233</sender>
+    <subject>寻找解码软件</subject>
+    <body>我们需要一种新软件来解码一种后缀名为.dec的文件
+
+Jex先前已经去寻找了一下，据他返还回来的情报说Macrosoft正在研发这种文件的解码器
+
+不管如何，我们都要弄一份备份回来
+
+但是，如果有困难还是要和我说，我们要得回到IRC里面一起讨论
+
+当有困难时，回复这封邮件并附上difficult字样，我就能知道了
+
+-Err0r233</body>
+    <attachments>
+      <link comp="MacroWeb" />
+    </attachments>
+  </email>
+</mission>

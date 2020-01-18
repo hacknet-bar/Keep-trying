@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Thesjy1" 
+          name="Secret" 
+          ip="15.158.27.30"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="6" />
+  <ports>443, 22, 6881, 554, 21, 1433</ports>
+  <portRemap>22=2998, 6881=1234</portRemap>
+  <trace time="75" />
+
+</Computer>

@@ -1,0 +1,20 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="News2">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Endroid 公司居然泄露了源码?">
+Endroid 公司居然泄露了源码?
+
+Endroid公司的最新源代码泄露，难道现在Endroid公司的安保措施已经为0了吗？亦或者说这是Endroid中的疏忽？依我看来，这不仅仅只是Endroid的失误，更是Endroid的一次教训，他们应该为自己的所作所为而反省。
+记者 :  Tom Wilkins
+  </posting>
+  <email>
+    <sender>HackNet</sender>
+    <subject>ERROR</subject>
+    <body>未知错误
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

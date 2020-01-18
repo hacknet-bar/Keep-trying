@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="FinalEnd" name="FinalEnd 总部" type="1" ip="192.156.81.9">
+
+  <portsForCrack val="99999998" />
+  <ports>32, 3659, 3724, 9418</ports>
+  <proxy time="2.5" />
+  <trace time="1" />
+<firewall level="99" solution="Macrosoft-firewallservice-0018" additionalTime="99.0"/>
+
+</Computer>

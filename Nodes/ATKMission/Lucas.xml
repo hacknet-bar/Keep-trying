@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Lucas"
+          name="Lucas Jonna的个人PC"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>1433, 80, 22, 6881, 554, 32</ports>
+  <trace time="65" />
+
+  
+  <file path="home" name="IRC_Address.txt">你以为我这里会有吗？
+这件事你得要去Gas那找找
+我不管IP这种事情</file>
+
+  <encryptedFile path="home" name="IRC_Account.dec" extension=".txt" ip="192.168.1.1" header="Lucas">Account：Lucas
+Password：P1easedLu</encryptedFile>
+  
+</Computer>

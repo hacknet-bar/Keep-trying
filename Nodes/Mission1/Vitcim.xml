@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Victim"
+          name="Victim 攻击中心"
+          ip="166.244.57.9"
+          security="6"
+          allowsDefaultBootModule="false"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="7" />
+  <ports>21, 22, 25, 80, 443, 1433, 6881, 554, 192</ports>
+  <trace time="-1" />
+  <adminPass pass="Victim-233" /> 
+
+  
+     <file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+	 <file path="home" name="1.txt">15</file>
+	 
+     <file path="home" name="VictimIPs.txt">受害者IP 每日更新！
+Alex 作战基地！    攻击成功
+SGO 公司网页服务器    攻击成功
+Macrosoft 网页服务器    攻击失败
+kang_zi PC    被白名单拦截
+-Vamper
+9.28</file>
+  
+</Computer>

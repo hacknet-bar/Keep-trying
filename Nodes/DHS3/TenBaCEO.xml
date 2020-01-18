@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TenBaCEO" 
+          name="TenBa CEO的工作站" 
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="DLCLaptop" 
+          type="1" > 
+  <portsForCrack val="4" />
+  <ports>1433, 22, 80, 21, 554, 6881</ports>
+  <trace time="70" />
+
+
+   <file path="home" name="Test.dll">#BINARY#</file>
+
+   
+     <dlink target="TenBaBL" />
+
+	 
+</Computer>

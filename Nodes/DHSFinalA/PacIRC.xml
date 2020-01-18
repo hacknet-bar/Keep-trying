@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PacIRC" name="太平洋航空 内部IRC" type="1" icon="Psylance" ip="86.99.133.7">
+
+  <portsForCrack val="3" />
+  <ports>80, 9418</ports>
+  <trace time="-1" />
+ <account username="Faith" password="HelloWorld" type="0" />
+<IRCDaemon themeColor="53,44,228" name="Psylance Private Channel" needsLogin="true" >
+    <user name="Faith" color="19,248,253"/>
+    <user name="Yusa" color="255,153,18"/>
+	<user name="Lisa" color="0,255,0"/>
+	    <post user="Faith">@Yusa</post>
+<post user="Faith">ICaRus，是你的PC密码么</post>
+<post user="Yusa">是，你现在应该可以进入我的PC</post>
+<post user="Faith">行，我现在就来帮你</post>
+</IRCDaemon>
+</Computer>

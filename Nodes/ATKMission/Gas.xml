@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Gas"
+          name="Gas 代理节点-X99"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="6" />
+  <ports>22, 21, 80, 554, 6881, 1433</ports>
+  <portRemap>80=9999, 22=655, 554=7979</portRemap>
+  <trace time="75" />
+  <proxy time="2" />
+
+  
+  <file path="IRC" name="IRC_Address.txt">45.96.80.5
+你们真的是令我不省心</file>
+  <file path="IRC" name="Project_FinalEnd.bat">#BINARY#</file>
+</Computer>

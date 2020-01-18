@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHS3" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	<goal type="filedeletion" target="TenBaBL" file="[Jackson].txt" path="Blacklist"/>
+  </goals>
+  <missionEnd>loadConditionalActions:DHSEnd/DHS3.xml</missionEnd>
+
+  <nextMission>NONE</nextMission>
+  <posting title="名单删除" reqs="DHS3" >
+将一个人从WIFI公司的黑名单中删除
+  </posting>
+  <email>
+    <sender>Err0r233</sender>
+    <subject>名单删除</subject>
+    <body>Jackson先生要求我们将他在WIFI公司的黑名单删除。
+他在一天发现他的WIFI供应商已经将他拉入黑名单，而他并没有做过其他事情。
+这十分不公平，是么？
+我觉得你应该知道怎么做。
+
+-Err0r233</body>
+    <attachments>
+<note title="任务笔记">找到TenBa的黑名单服务器，将Jackson从名单中删除</note>
+	  <link comp="TenBaGy" /> 
+    </attachments>
+  </email>
+</mission>

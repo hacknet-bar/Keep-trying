@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Kaguya"
+          name="Kaguya 个人PC"
+          ip="145.145.145.145"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCPC1"
+          type="1" >
+
+  <portsForCrack val="1" />
+  <ports>554</ports>
+  <trace time="60" />
+  <firewall level="5" solution="kaguyaiskaguya" additionalTime="1"/>
+  <admin type="progess"/>  
+ 
+ 
+  <file path="home" name="Whitelist.txt">159.164.73.1
+保护白名单的白名单
+IP为94.155
+另外，D3f4ult给我发了这个IP 198.147.55.7
+找个时间我要去看看</file>
+  
+  <customthemefile path="sys" name="Kaguya_x-server.sys" themePath="Themes/KaguyaTheme.xml" />
+</Computer>

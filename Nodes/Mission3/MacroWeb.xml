@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MacroWeb"
+          name="Macrosoft 网页服务器"
+          ip="175.42.163.84"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 80, 443, 554, 6881</ports>
+  <portRemap>80=8080</portRemap>
+  <admin type="progess"/>
+  <trace time="55" />
+  <proxy time="2" />
+  <firewall level="5" solution="mekr0softWEB" additionalTime="0.05"/>
+  
+    <addWebServer name="Macrosoft Website"
+                url="web\Presets\Macrosoft/Macrosoft.html" />
+  
+  <file path="home" name="Macrowall.txt">欢迎使用Macrosoft防火墙</file>
+本产品将让你感受到前所未有的安全
+仅需要购买Macrosoft的任意产品就能附带本防火墙
+Macrosoft在保护你的安全上更进一步
+你前进的路上，有Macrosoft为你保驾护航
+P.S.:在下次的新品发布会上念这段广告词
+
+  <dlink target="MacroCache" />
+  <dlink target="CCC" />
+  <dlink target="MacroInternal" />
+  <dlink target="MacroCEO" />
+  <dlink target="MacroCore" />
+</Computer>

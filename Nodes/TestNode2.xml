@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="testNode2" 
+          name="ATK-缓存服务器" 
+          ip="104.12.66.87"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+  <portsForCrack val="1" />
+  <ports>443, 22, 80</ports>
+  <trace time="16" />
+
+  <file path="home" name="A_mention.txt">可恶。
+J，你能不能不要把重要的IP到处张示
+我可求求你了
+你不知道这样做会让我们的机密泄露吗
+我还要再把它删一次
+MMP
+Gas</file>
+  <file path="home" name="ask.txt">OK OK OK！
+我保证下次不会再犯了
+但是问个小小的问题：为啥我进不去我们总部了
+-J</file>
+  <file path="home" name="answer.txt">我们不要在这里泄露我们的机密
+我们在邮箱详谈
+Gas</file>
+  <file path="sys" name="BetaTester.dll">0010101010101010100110010111101001010101101000101001101010101101001010101011001111001010110101011101</file>
+  <file path="sys" name="BTestReadme.txt">欢迎使用Beta测试者！
+本软件占用极小
+仅需在你的sys文件夹部署BetaTester.dll就能使用
+本软件能够在被监视的设备打开远程桌面
+BetaTester 感谢有你！
+Joe Lucas.</file>
+   <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+  
+</Computer>

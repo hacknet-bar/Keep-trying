@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DrYang"
+          name="Dr. Yang的办公室电脑"
+          ip="181.76.32.9"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="Laptop"
+          type="1" >
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 554</ports>
+  <portRemap>554=8090,22=80</portRemap>
+  <trace time="60" />
+  <firewall level="4" solution="electronic" additionalTime="1.0"/>
+  <admin type="basic" resetPassword="false" isSuper="false"/> 
+
+  
+  <file path="Medical" name="Rosan_Brany.txt">=========================================
+患者患了很严重的疾病，但是他也很坚强
+急需化疗
+已经尝试治疗了半年
+目前似乎有好转的迹象，加油啊孩子
+=========================================</file>
+  
+  
+  <dlink target="MedicalWIFI" />
+  <dlink target="MedWhitelist" />
+  
+
+</Computer>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Faith" name="King Smith的工作PC" type="1" icon="DLCPC1">
+
+  <portsForCrack val="4" />
+  <ports>80, 22, 25, 21</ports>
+  <trace time="60" />
+
+<file path="home" name="IRCAddress.txt">IRC的IP地址:86.99.133.7</file>
+<file path="sys" name="Eos_SyncLog.dat">#BINARYSMALL#</file>
+  <WhitelistAuthenticatorDaemon Remote="PacWT2" />
+  
+    <eosDevice name="Faith's EPhone 7" id="PacPhone" icon="ePhone1" empty="true" passOverride="alpine">
+    <mail username="Faith@PacificMail.com" pass="AreYouKiddingMe" />
+  </eosDevice>
+</Computer>
